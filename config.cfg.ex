@@ -1,0 +1,5 @@
+main_repo="/absolute/path/to/this/repo"
+axiomlib="="/absolute/path/to/axiomlib"
+fmd_executable="/absolute/path/to/Fmd"
+fmd_config="/absolute/path/to/axiomlib_fmd.conf"
+fmd_dataset="/absolute/path/to/dataset"
