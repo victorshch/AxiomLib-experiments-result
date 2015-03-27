@@ -1,0 +1,2675 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="10">
+<AxiomExprSetPlus class_id="0" tracking_level="0" version="0">
+	<AxiomExprSet class_id="1" tracking_level="0" version="0">
+		<nameOfAxiomSet>stageThree_CharTraj_v1_26</nameOfAxiomSet>
+		<nameOfAxiomBank>no_name_AxiomBank</nameOfAxiomBank>
+		<axioms class_id="2" tracking_level="0" version="0">
+			<count>52</count>
+			<item_version>0</item_version>
+			<item class_id="3" tracking_level="1" version="0" object_id="_0">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression class_id="4" tracking_level="0" version="0">
+					<count>1</count>
+					<item_version>0</item_version>
+					<item class_id="5" tracking_level="0" version="0">
+						<count>1</count>
+						<item_version>0</item_version>
+						<item class_id="6" tracking_level="0" version="0">
+							<elemCondition class_id="7" class_name="ElemCondClustering" tracking_level="1" version="0" object_id="_1">
+								<ElemCondition class_id="8" tracking_level="0" version="0">
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>94</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id="9" class_name="KMeansClustering" tracking_level="1" version="0" object_id="_2">
+									<iters>10</iters>
+									<dimension>4</dimension>
+									<serializable class_id="10" tracking_level="1" version="0" object_id="_3">
+										<count>100</count>
+										<item_version>0</item_version>
+										<item object_id="_4">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.9889205363368556</item>
+											<item>190.27236916109203</item>
+											<item>8.8808450152566145</item>
+											<item>-2.3690139200434692</item>
+										</item>
+										<item object_id="_5">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>5.0494117755511798</item>
+											<item>27.052836861782712</item>
+											<item>6.4611439495142537</item>
+											<item>-211.7007422206666</item>
+										</item>
+										<item object_id="_6">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.38808690980230676</item>
+											<item>86.309240198671034</item>
+											<item>6.6015197340661489</item>
+											<item>-2.3624180644699835</item>
+										</item>
+										<item object_id="_7">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.071337274243334289</item>
+											<item>27.490729826484717</item>
+											<item>4.8735554512867152</item>
+											<item>-25.239596499161557</item>
+										</item>
+										<item object_id="_8">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.43340690022297734</item>
+											<item>51.03977381612706</item>
+											<item>6.2835834633051135</item>
+											<item>-2.5060119271033581</item>
+										</item>
+										<item object_id="_9">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.010955368265248457</item>
+											<item>36.668140162834376</item>
+											<item>3.886507390720066</item>
+											<item>-1.4936947946001178</item>
+										</item>
+										<item object_id="_10">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.11779952892245689</item>
+											<item>31.529369776409208</item>
+											<item>2.9789767674635521</item>
+											<item>-1.4946677954880194</item>
+										</item>
+										<item object_id="_11">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-6.8421373659136329</item>
+											<item>9.8529539493413516</item>
+											<item>21.462527367778193</item>
+											<item>-181.96439984962041</item>
+										</item>
+										<item object_id="_12">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.25371108697805306</item>
+											<item>26.63810115142104</item>
+											<item>3.8461458000109636</item>
+											<item>-29.814611023346554</item>
+										</item>
+										<item object_id="_13">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.053440365951176461</item>
+											<item>82.003739297077871</item>
+											<item>4.208584208251545</item>
+											<item>-6.6688302189133166</item>
+										</item>
+										<item object_id="_14">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.8454548274549144</item>
+											<item>66.747346774163006</item>
+											<item>8.2677538422910768</item>
+											<item>-1.2128367082287201</item>
+										</item>
+										<item object_id="_15">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-5.5224492278485489</item>
+											<item>84.12585208177245</item>
+											<item>19.947746512910147</item>
+											<item>-128.37207451924539</item>
+										</item>
+										<item object_id="_16">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.7343711029406785</item>
+											<item>55.056062657494834</item>
+											<item>10.180446465473768</item>
+											<item>-25.964201935199217</item>
+										</item>
+										<item object_id="_17">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.08082764467638</item>
+											<item>84.29408463322271</item>
+											<item>2.2423363346094645</item>
+											<item>-1.7394838123365346</item>
+										</item>
+										<item object_id="_18">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.46763818339363011</item>
+											<item>27.512650584573944</item>
+											<item>1.9062193541896109</item>
+											<item>-11.172391419993001</item>
+										</item>
+										<item object_id="_19">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.4537533103692859</item>
+											<item>186.83855326016877</item>
+											<item>26.258744176082363</item>
+											<item>-109.950906567045</item>
+										</item>
+										<item object_id="_20">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>4.0947320917098162</item>
+											<item>3.5167410643388588</item>
+											<item>10.683590553717623</item>
+											<item>-211.67835315844906</item>
+										</item>
+										<item object_id="_21">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.65100877573161209</item>
+											<item>186.86650214458135</item>
+											<item>12.036577146100528</item>
+											<item>-9.0904011002330751</item>
+										</item>
+										<item object_id="_22">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.4646321568166398</item>
+											<item>75.197407053525254</item>
+											<item>9.9108646563957858</item>
+											<item>-2.9170785452050381</item>
+										</item>
+										<item object_id="_23">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>6.2520235658052972</item>
+											<item>130.22885748668259</item>
+											<item>29.08496029285488</item>
+											<item>-211.62136745167521</item>
+										</item>
+										<item object_id="_24">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.80922634354277</item>
+											<item>39.890994459782775</item>
+											<item>7.817786772839451</item>
+											<item>-25.683789008574063</item>
+										</item>
+										<item object_id="_25">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.8020498173703188</item>
+											<item>186.90437173651958</item>
+											<item>2.5162852855829194</item>
+											<item>-10.061488970446513</item>
+										</item>
+										<item object_id="_26">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.34263875075567723</item>
+											<item>25.858286885319451</item>
+											<item>1.8779805044865268</item>
+											<item>-8.5346889181360854</item>
+										</item>
+										<item object_id="_27">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.03216416694194664</item>
+											<item>6.2814913821485252</item>
+											<item>1.0543977178704338</item>
+											<item>-10.342670041992861</item>
+										</item>
+										<item object_id="_28">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>3.4564619721950658</item>
+											<item>187.3720545208804</item>
+											<item>6.9083936197807443</item>
+											<item>-10.964823689586449</item>
+										</item>
+										<item object_id="_29">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.3339805118259993</item>
+											<item>15.122918976550984</item>
+											<item>2.6965676205381168</item>
+											<item>-26.283319814685957</item>
+										</item>
+										<item object_id="_30">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.7660582533922227</item>
+											<item>85.666987840147328</item>
+											<item>12.940958769550154</item>
+											<item>-30.053913917280319</item>
+										</item>
+										<item object_id="_31">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-2.6584709092802954</item>
+											<item>7.5956891331828045</item>
+											<item>17.271412868264093</item>
+											<item>-116.45745632954225</item>
+										</item>
+										<item object_id="_32">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.9582996328021884</item>
+											<item>66.763031103118294</item>
+											<item>9.941354191783315</item>
+											<item>-9.7511073528068177</item>
+										</item>
+										<item object_id="_33">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>3.0985904682637835</item>
+											<item>27.373722045610485</item>
+											<item>16.071492014881105</item>
+											<item>-211.17523351773846</item>
+										</item>
+										<item object_id="_34">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.39186170691531014</item>
+											<item>4.1397114211418149</item>
+											<item>3.7381543049343247</item>
+											<item>-211.54044120751851</item>
+										</item>
+										<item object_id="_35">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.30863001461822992</item>
+											<item>83.935870032355922</item>
+											<item>4.618123783775931</item>
+											<item>-2.3291783738249219</item>
+										</item>
+										<item object_id="_36">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.066480992545165041</item>
+											<item>19.238807604333974</item>
+											<item>2.5323253217323343</item>
+											<item>-10.43602196939573</item>
+										</item>
+										<item object_id="_37">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.39583412517755617</item>
+											<item>26.533603782329251</item>
+											<item>1.2440922800536027</item>
+											<item>-25.265122179752492</item>
+										</item>
+										<item object_id="_38">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.75218093001119279</item>
+											<item>81.61859550879079</item>
+											<item>3.9681309653396601</item>
+											<item>-2.1385008147264832</item>
+										</item>
+										<item object_id="_39">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.2342497526692355</item>
+											<item>82.918876801893404</item>
+											<item>6.8870015888404934</item>
+											<item>-20.441527340387793</item>
+										</item>
+										<item object_id="_40">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.3677545659983208</item>
+											<item>84.024583845743635</item>
+											<item>6.6791722001739835</item>
+											<item>-211.60572747000165</item>
+										</item>
+										<item object_id="_41">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>2.2468560641791546</item>
+											<item>83.419804731823049</item>
+											<item>20.535128560574019</item>
+											<item>-211.89174477967089</item>
+										</item>
+										<item object_id="_42">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>3.4783250316081173</item>
+											<item>186.05085452018599</item>
+											<item>10.407708149756461</item>
+											<item>-2.0970295819871034</item>
+										</item>
+										<item object_id="_43">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.7136451338710159</item>
+											<item>17.690469095420443</item>
+											<item>16.323412934650552</item>
+											<item>-95.793444641376411</item>
+										</item>
+										<item object_id="_44">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>9.0762726315171278</item>
+											<item>187.73565175003009</item>
+											<item>28.989139421364555</item>
+											<item>-211.71692226577693</item>
+										</item>
+										<item object_id="_45">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>6.6379379017907185</item>
+											<item>187.12512529232964</item>
+											<item>5.1605606201830065</item>
+											<item>-211.61520329711982</item>
+										</item>
+										<item object_id="_46">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.023935908981390589</item>
+											<item>187.21520815323254</item>
+											<item>22.344424279579275</item>
+											<item>-75.946071102181065</item>
+										</item>
+										<item object_id="_47">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.70980866998431791</item>
+											<item>91.696213810090327</item>
+											<item>13.031602360138022</item>
+											<item>-4.3890936179609294</item>
+										</item>
+										<item object_id="_48">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.2377395902656778</item>
+											<item>81.469490622922208</item>
+											<item>2.1347471446791739</item>
+											<item>-9.6249511393057929</item>
+										</item>
+										<item object_id="_49">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.2508626860097517</item>
+											<item>83.669125206553545</item>
+											<item>7.1455861155238942</item>
+											<item>-11.618291454930549</item>
+										</item>
+										<item object_id="_50">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-5.0169689317580977</item>
+											<item>27.255642596864988</item>
+											<item>19.122307416140913</item>
+											<item>-126.74292245759656</item>
+										</item>
+										<item object_id="_51">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-6.308488955215263</item>
+											<item>187.04987260481565</item>
+											<item>25.521450125963142</item>
+											<item>-126.5860174990366</item>
+										</item>
+										<item object_id="_52">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-3.502981383073605</item>
+											<item>187.79481646301787</item>
+											<item>7.3653435004796703</item>
+											<item>-10.808023541477828</item>
+										</item>
+										<item object_id="_53">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.57859852755434316</item>
+											<item>22.285767894018942</item>
+											<item>3.3283291966886619</item>
+											<item>-26.26142174218479</item>
+										</item>
+										<item object_id="_54">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.12897109299778026</item>
+											<item>83.660508930734579</item>
+											<item>1.323235675982644</item>
+											<item>-11.987389446180721</item>
+										</item>
+										<item object_id="_55">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>2.9728622016671742</item>
+											<item>128.24911869853617</item>
+											<item>16.740434941233083</item>
+											<item>-3.39943654322524</item>
+										</item>
+										<item object_id="_56">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>2.0681695290913655</item>
+											<item>113.14149429813759</item>
+											<item>19.647209733059483</item>
+											<item>-26.610571423810391</item>
+										</item>
+										<item object_id="_57">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.084384654167803427</item>
+											<item>10.77661908893972</item>
+											<item>1.2864135110984891</item>
+											<item>-11.694792106760243</item>
+										</item>
+										<item object_id="_58">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.7034341641715175</item>
+											<item>15.723644449972461</item>
+											<item>11.655615610027114</item>
+											<item>-65.890888275741744</item>
+										</item>
+										<item object_id="_59">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.047775189747775795</item>
+											<item>9.3685829300623631</item>
+											<item>1.9974316920197859</item>
+											<item>-26.369601498000705</item>
+										</item>
+										<item object_id="_60">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.32772159103104248</item>
+											<item>27.560754280768322</item>
+											<item>3.2983822484797831</item>
+											<item>-18.180308352928659</item>
+										</item>
+										<item object_id="_61">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.033052330449081492</item>
+											<item>1.544449849259057</item>
+											<item>1.4563447613088691</item>
+											<item>-27.460635973111216</item>
+										</item>
+										<item object_id="_62">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.1015140682676159</item>
+											<item>186.71698827540786</item>
+											<item>5.3700763105586606</item>
+											<item>-1.2051519880782458</item>
+										</item>
+										<item object_id="_63">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>2.0836267337793561</item>
+											<item>15.695742892625468</item>
+											<item>14.403002255219073</item>
+											<item>-211.91165422002038</item>
+										</item>
+										<item object_id="_64">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>4.4269664213851181</item>
+											<item>187.20580178627287</item>
+											<item>23.29937698631144</item>
+											<item>-2.9256953970565194</item>
+										</item>
+										<item object_id="_65">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.024354874553346322</item>
+											<item>11.492265050879391</item>
+											<item>0.81727482642447458</item>
+											<item>-1.8329022849905188</item>
+										</item>
+										<item object_id="_66">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.27799511511648356</item>
+											<item>42.172980225091329</item>
+											<item>5.0505566158213577</item>
+											<item>-2.6928759731673146</item>
+										</item>
+										<item object_id="_67">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.3864961836574572</item>
+											<item>84.757045442252405</item>
+											<item>3.8606052791476966</item>
+											<item>-7.8718542694119575</item>
+										</item>
+										<item object_id="_68">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.21617900009294211</item>
+											<item>27.760325958566462</item>
+											<item>1.2233316565702164</item>
+											<item>-0.39453307439064317</item>
+										</item>
+										<item object_id="_69">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.28257706992797776</item>
+											<item>84.445750689588962</item>
+											<item>0.78150820804726018</item>
+											<item>-1.3682452722615219</item>
+										</item>
+										<item object_id="_70">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-2.1287244875521334</item>
+											<item>186.53115265836712</item>
+											<item>11.785755219477915</item>
+											<item>-1.7924566912691871</item>
+										</item>
+										<item object_id="_71">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.78594615922145283</item>
+											<item>57.464848457612113</item>
+											<item>7.9117549381774124</item>
+											<item>-5.0182836028396158</item>
+										</item>
+										<item object_id="_72">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.22947836636111751</item>
+											<item>85.804016119178343</item>
+											<item>1.931666540792877</item>
+											<item>-3.5151571226089096</item>
+										</item>
+										<item object_id="_73">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.38283814760701657</item>
+											<item>87.350790771405869</item>
+											<item>1.5830956413954125</item>
+											<item>-0.5531896711695109</item>
+										</item>
+										<item object_id="_74">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.7182612293267054</item>
+											<item>187.77725291444867</item>
+											<item>13.75000836864616</item>
+											<item>-23.030389720744559</item>
+										</item>
+										<item object_id="_75">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-9.7614872970502446</item>
+											<item>187.85682823939777</item>
+											<item>25.581795628928827</item>
+											<item>-154.21693454975497</item>
+										</item>
+										<item object_id="_76">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-4.5668738031875904</item>
+											<item>6.0091385480447981</item>
+											<item>15.811345624386144</item>
+											<item>-128.68462328442146</item>
+										</item>
+										<item object_id="_77">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.11253071624495944</item>
+											<item>25.502399234721146</item>
+											<item>2.0776898961539714</item>
+											<item>-0.92930606273112715</item>
+										</item>
+										<item object_id="_78">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-6.2036626615292265</item>
+											<item>9.1409002511967525</item>
+											<item>17.747354384362225</item>
+											<item>-153.90013505319192</item>
+										</item>
+										<item object_id="_79">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.00053357673883512038</item>
+											<item>81.96262886069843</item>
+											<item>1.4804378710275732</item>
+											<item>-2.2974701727137012</item>
+										</item>
+										<item object_id="_80">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.20990958043599539</item>
+											<item>82.781859469041393</item>
+											<item>2.6571022049223978</item>
+											<item>-0.065944164536454061</item>
+										</item>
+										<item object_id="_81">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.2718795602279034</item>
+											<item>114.82149954778177</item>
+											<item>16.683650918732365</item>
+											<item>-4.492902166603824</item>
+										</item>
+										<item object_id="_82">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.85192761923553384</item>
+											<item>79.096119361669011</item>
+											<item>1.9579020642269509</item>
+											<item>-3.7725533003242449</item>
+										</item>
+										<item object_id="_83">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.928495605130562</item>
+											<item>84.6301618917485</item>
+											<item>4.8831051977569659</item>
+											<item>-27.577024884971404</item>
+										</item>
+										<item object_id="_84">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>4.5219318762315419</item>
+											<item>153.74795152253898</item>
+											<item>20.05846866266009</item>
+											<item>-6.7186978206372325</item>
+										</item>
+										<item object_id="_85">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.9264451832541318</item>
+											<item>81.328955350267762</item>
+											<item>4.0960893754235759</item>
+											<item>-26.271957431018112</item>
+										</item>
+										<item object_id="_86">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>3.5201964998515853</item>
+											<item>186.04883932255211</item>
+											<item>12.412714080341459</item>
+											<item>-29.098891084955469</item>
+										</item>
+										<item object_id="_87">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-10.726012144348854</item>
+											<item>187.0552805377142</item>
+											<item>29.218367031855788</item>
+											<item>-182.69644304678579</item>
+										</item>
+										<item object_id="_88">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>3.7489912918853499</item>
+											<item>127.1950513569646</item>
+											<item>20.249520748423876</item>
+											<item>-26.658165814039378</item>
+										</item>
+										<item object_id="_89">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-6.9877088915661982</item>
+											<item>187.06178822295121</item>
+											<item>7.1396738198128444</item>
+											<item>-212.42798376828307</item>
+										</item>
+										<item object_id="_90">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>2.2928116052582928</item>
+											<item>82.979485241059947</item>
+											<item>2.5954797713790905</item>
+											<item>-24.508369121602495</item>
+										</item>
+										<item object_id="_91">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-3.3549240067877575</item>
+											<item>187.06405956706016</item>
+											<item>6.0583830942327168</item>
+											<item>-26.433694649601499</item>
+										</item>
+										<item object_id="_92">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>3.1006925083577483</item>
+											<item>71.134105003393685</item>
+											<item>11.806364608281548</item>
+											<item>-25.940702731746626</item>
+										</item>
+										<item object_id="_93">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.5167902810077787</item>
+											<item>83.34532520768316</item>
+											<item>10.317547708810151</item>
+											<item>-1.3807895273403319</item>
+										</item>
+										<item object_id="_94">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.5144354289688244</item>
+											<item>84.257788970697945</item>
+											<item>2.9879322164571565</item>
+											<item>-11.499721925929894</item>
+										</item>
+										<item object_id="_95">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-2.4613349743057698</item>
+											<item>187.21732828757044</item>
+											<item>2.7125368565222723</item>
+											<item>-1.3664430426389842</item>
+										</item>
+										<item object_id="_96">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.5126265631311544</item>
+											<item>85.989982862478868</item>
+											<item>3.758475022233251</item>
+											<item>-1.3404678889462254</item>
+										</item>
+										<item object_id="_97">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-2.2746519603681232</item>
+											<item>4.9084861276038909</item>
+											<item>16.339957545400615</item>
+											<item>-211.79047195100537</item>
+										</item>
+										<item object_id="_98">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.1913626944044142</item>
+											<item>84.042004428829983</item>
+											<item>17.956782633829903</item>
+											<item>-87.107469471277113</item>
+										</item>
+										<item object_id="_99">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-6.4657463737688579</item>
+											<item>187.09108698905641</item>
+											<item>29.740483542891766</item>
+											<item>-211.76561316414316</item>
+										</item>
+										<item object_id="_100">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-3.775115193539154</item>
+											<item>187.51512060257852</item>
+											<item>7.8269301960718005</item>
+											<item>-1.8657603350951584</item>
+										</item>
+										<item object_id="_101">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-8.0425313897480546</item>
+											<item>84.358028583603954</item>
+											<item>23.138603066344803</item>
+											<item>-172.35954323112253</item>
+										</item>
+										<item object_id="_102">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>6.5339805113411717</item>
+											<item>55.47351405413486</item>
+											<item>19.846412559232899</item>
+											<item>-211.64116996907936</item>
+										</item>
+										<item object_id="_103">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.1459624290384417</item>
+											<item>27.748439882732217</item>
+											<item>1.5709081320324845</item>
+											<item>-2.8444194646770335</item>
+										</item>
+									</serializable>
+								</clusteringModel>
+								<clusteringFeatures class_id="12" tracking_level="0" version="0">
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id="13" class_name="RegressionAngleFeature" tracking_level="1" version="0" object_id="_104"></item>
+									<item class_id="14" class_name="MaxValueFeature" tracking_level="1" version="0" object_id="_105"></item>
+									<item class_id="15" class_name="StandardDeviationFeature" tracking_level="1" version="0" object_id="_106"></item>
+									<item class_id="16" class_name="MinValueFeature" tracking_level="1" version="0" object_id="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_108">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_109">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>19</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_110">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_111">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>37</clusterNumber>
+								<length>20</length>
+								<clusteringModel class_id_reference="9" object_id="_112">
+									<iters>10</iters>
+									<dimension>4</dimension>
+									<serializable object_id_reference="_3"></serializable>
+								</clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id="_113"></item>
+									<item class_id_reference="14" object_id="_114"></item>
+									<item class_id_reference="15" object_id="_115"></item>
+									<item class_id_reference="16" object_id="_116"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_117">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_118">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>39</clusterNumber>
+								<length>10</length>
+								<clusteringModel class_id_reference="9" object_id="_119">
+									<iters>10</iters>
+									<dimension>4</dimension>
+									<serializable object_id_reference="_3"></serializable>
+								</clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id="_120"></item>
+									<item class_id_reference="14" object_id="_121"></item>
+									<item class_id_reference="15" object_id="_122"></item>
+									<item class_id_reference="16" object_id="_123"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_124">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_125">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>69</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_126">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_127">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>28</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_128">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_129">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id="_130">
+									<iters>10</iters>
+									<dimension>4</dimension>
+									<serializable object_id_reference="_3"></serializable>
+								</clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id="_131"></item>
+									<item class_id_reference="14" object_id="_132"></item>
+									<item class_id_reference="15" object_id="_133"></item>
+									<item class_id_reference="16" object_id="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_135">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_136">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_137">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_138">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_139">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_140">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_141">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_142">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_143">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_144">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_145">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_146">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_147">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_148">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_149">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_150">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>29</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_151">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_152">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>29</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_153">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_154">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>29</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_155">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_156">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>29</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_157">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_158">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>29</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_159">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_160">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>29</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_161">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_162">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>29</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_163">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_164">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_165">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_166">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_167">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_168">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_169">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_170">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_171">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_172">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_173">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_174">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_175">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_176">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_177">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_178">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_179">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_180">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_181">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_182">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_183">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_184">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_185">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_186">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_187">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_188">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_189">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_190">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_191">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_192">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_193">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_194">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_195">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_196">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_197">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_198">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_199">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_200">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_201">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_202">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_203">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_204">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_205">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_206">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_207">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_208">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_209">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_210">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>83</clusterNumber>
+								<length>40</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_130"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_131"></item>
+									<item class_id_reference="14" object_id_reference="_132"></item>
+									<item class_id_reference="15" object_id_reference="_133"></item>
+									<item class_id_reference="16" object_id_reference="_134"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_211">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_212">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>29</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_213">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_214">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>29</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_215">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_216">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>29</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_217">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_218">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>29</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_219">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_220">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>29</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_221">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_222">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>29</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_223">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_224">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>29</clusterNumber>
+								<length>30</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+		</axioms>
+	</AxiomExprSet>
+	<goal>400</goal>
+	<errFirst>0</errFirst>
+	<errSecond>20</errSecond>
+	<axiomsIndex>
+		<count>0</count>
+		<item_version>0</item_version>
+	</axiomsIndex>
+	<markUps class_id="18" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>
+			<count>98</count>
+			<item_version>0</item_version>
+			<item>1</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>15</item>
+			<item>15</item>
+			<item>15</item>
+			<item>15</item>
+			<item>15</item>
+			<item>15</item>
+			<item>15</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>7</item>
+			<item>15</item>
+			<item>15</item>
+			<item>15</item>
+			<item>15</item>
+			<item>15</item>
+			<item>15</item>
+			<item>15</item>
+		</item>
+	</markUps>
+	<multiMarkUps class_id="20" tracking_level="0" version="0">
+		<count>0</count>
+		<item_version>0</item_version>
+	</multiMarkUps>
+	<errors class_id="21" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item class_id="22" tracking_level="0" version="0">
+			<first>0</first>
+			<second>20</second>
+		</item>
+	</errors>
+</AxiomExprSetPlus>
+</boost_serialization>
+

@@ -70,14 +70,14 @@ results=`grep 'stageThree_.*\s*\d*\s*\(\d*, \d*\)' out`
 echo "$results" >> 'result'
 echo "$results"
 
-read -p "Commit and push? (Y\n)" -n 1 -r
-echo    # (optional) move to a new line
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-    cd $main_repo
-    git add .
-    git commit -m "$experiment"
-    git push
-fi
+# read -p "Commit and push? (Y\n)" -n 1 -r
+# echo    # (optional) move to a new line
+# if [[ $REPLY =~ ^[Yy]$ ]]
+# then
+#     cd $main_repo
+#     git add .
+#     git commit -m "$experiment"
+#     git push
+# fi
 
 echo "Finish"
