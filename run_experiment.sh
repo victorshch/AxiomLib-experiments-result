@@ -2,14 +2,16 @@
 
 exec 6>&1 # Save stdout.
 
-echo "Reading config.cfg..."
-. config.cfg
+echo "Reading $1"
+. $1
 
 cd $main_repo
 
+fmd_dataset=$2
+
 echo "Create new result directory..."
 experiment=$(date +%Y-%m-%d_%H:%M:%S)
-output_dir=$main_repo'/'$experiment
+output_dir=$main_repo'/'$experiment$output_dir_suffix
 mkdir $output_dir
 echo $output_dir
 
