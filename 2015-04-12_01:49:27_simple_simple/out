@@ -1,0 +1,1189 @@
+Initializing heuristics set
+Starting EC selection stage
+numOfLevels = 150
+Abnormal type 0, dimension row_1
+	AbType: 0	Dimension: row_1	Elem condition: 1 (integral) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 2 (not integral) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 3 (decrease_left_elementary_condition) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 4 (not decrease_left_elementary_condition) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 5 (increase_left_elementary_condition) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 6 (not increase_left_elementary_condition) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 7 (decrease_right_elementary_condition) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 8 (not decrease_right_elementary_condition) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 9 (second_derivative_decrease_left) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 10 (not second_derivative_decrease_left) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 11 (derivative_decrease_left) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 12 (not derivative_decrease_left) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 13 (between_two_levels) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 14 (not between_two_levels) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 15 (volatility) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 16 (not volatility) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 17 (second_derivative_increase_left) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 18 (not second_derivative_increase_left) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 19 (second_derivative_decrease_right) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 20 (not second_derivative_decrease_right) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 21 (derivative_decrease_right) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 22 (not derivative_decrease_right) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 23 (derivative_increase_right) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 24 (not derivative_increase_right) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 25 (derivative_increase_left) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 26 (not derivative_increase_left) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 27 (second_derivative_increase_right) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 28 (not second_derivative_increase_right) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 29 (increase_right_elementary_condition) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 30 (not increase_right_elementary_condition) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 31 (variance) out of 32 by thread 0.	
+	AbType: 0	Dimension: row_1	Elem condition: 32 (not variance) out of 32 by thread 0.	
+Finished abnormal type 0, dimension row_1
+Finished EC selection stage. EC count: 1008
+Creating axioms.
+Selecting axioms for abnormal type 0
+Creating intial population and sat points ...
+Counting initial statistics
+		axiomNum=0	by thread 0.	
+		axiomNum=1	by thread 0.	
+		axiomNum=2	by thread 0.	
+		axiomNum=3	by thread 0.	
+		axiomNum=4	by thread 0.	
+		axiomNum=5	by thread 0.	
+		axiomNum=6	by thread 0.	
+		axiomNum=7	by thread 0.	
+		axiomNum=8	by thread 0.	
+		axiomNum=9	by thread 0.	
+		axiomNum=10	by thread 0.	
+		axiomNum=11	by thread 0.	
+		axiomNum=12	by thread 0.	
+		axiomNum=13	by thread 0.	
+		axiomNum=14	by thread 0.	
+		axiomNum=15	by thread 0.	
+		axiomNum=16	by thread 0.	
+		axiomNum=17	by thread 0.	
+		axiomNum=18	by thread 0.	
+		axiomNum=19	by thread 0.	
+		axiomNum=20	by thread 0.	
+		axiomNum=21	by thread 0.	
+		axiomNum=22	by thread 0.	
+		axiomNum=23	by thread 0.	
+		axiomNum=24	by thread 0.	
+		axiomNum=25	by thread 0.	
+		axiomNum=26	by thread 0.	
+		axiomNum=27	by thread 0.	
+		axiomNum=28	by thread 0.	
+		axiomNum=29	by thread 0.	
+		axiomNum=30	by thread 0.	
+		axiomNum=31	by thread 0.	
+		axiomNum=32	by thread 0.	
+		axiomNum=33	by thread 0.	
+		axiomNum=34	by thread 0.	
+		axiomNum=35	by thread 0.	
+		axiomNum=36	by thread 0.	
+		axiomNum=37	by thread 0.	
+		axiomNum=38	by thread 0.	
+		axiomNum=39	by thread 0.	
+		axiomNum=40	by thread 0.	
+		axiomNum=41	by thread 0.	
+		axiomNum=42	by thread 0.	
+		axiomNum=43	by thread 0.	
+		axiomNum=44	by thread 0.	
+		axiomNum=45	by thread 0.	
+		axiomNum=46	by thread 0.	
+		axiomNum=47	by thread 0.	
+		axiomNum=48	by thread 0.	
+		axiomNum=49	by thread 0.	
+		axiomNum=50	by thread 0.	
+		axiomNum=51	by thread 0.	
+		axiomNum=52	by thread 0.	
+		axiomNum=53	by thread 0.	
+		axiomNum=54	by thread 0.	
+		axiomNum=55	by thread 0.	
+		axiomNum=56	by thread 0.	
+		axiomNum=57	by thread 0.	
+		axiomNum=58	by thread 0.	
+		axiomNum=59	by thread 0.	
+		axiomNum=60	by thread 0.	
+		axiomNum=61	by thread 0.	
+		axiomNum=62	by thread 0.	
+		axiomNum=63	by thread 0.	
+		axiomNum=64	by thread 0.	
+		axiomNum=65	by thread 0.	
+		axiomNum=66	by thread 0.	
+		axiomNum=67	by thread 0.	
+		axiomNum=68	by thread 0.	
+		axiomNum=69	by thread 0.	
+		axiomNum=70	by thread 0.	
+		axiomNum=71	by thread 0.	
+		axiomNum=72	by thread 0.	
+		axiomNum=73	by thread 0.	
+		axiomNum=74	by thread 0.	
+		axiomNum=75	by thread 0.	
+		axiomNum=76	by thread 0.	
+		axiomNum=77	by thread 0.	
+		axiomNum=78	by thread 0.	
+		axiomNum=79	by thread 0.	
+		axiomNum=80	by thread 0.	
+		axiomNum=81	by thread 0.	
+		axiomNum=82	by thread 0.	
+		axiomNum=83	by thread 0.	
+		axiomNum=84	by thread 0.	
+		axiomNum=85	by thread 0.	
+		axiomNum=86	by thread 0.	
+		axiomNum=87	by thread 0.	
+		axiomNum=88	by thread 0.	
+		axiomNum=89	by thread 0.	
+		axiomNum=90	by thread 0.	
+		axiomNum=91	by thread 0.	
+		axiomNum=92	by thread 0.	
+		axiomNum=93	by thread 0.	
+		axiomNum=94	by thread 0.	
+		axiomNum=95	by thread 0.	
+		axiomNum=96	by thread 0.	
+		axiomNum=97	by thread 0.	
+		axiomNum=98	by thread 0.	
+		axiomNum=99	by thread 0.	
+		axiomNum=100	by thread 0.	
+		axiomNum=101	by thread 0.	
+		axiomNum=102	by thread 0.	
+		axiomNum=103	by thread 0.	
+		axiomNum=104	by thread 0.	
+		axiomNum=105	by thread 0.	
+		axiomNum=106	by thread 0.	
+		axiomNum=107	by thread 0.	
+		axiomNum=108	by thread 0.	
+		axiomNum=109	by thread 0.	
+		axiomNum=110	by thread 0.	
+		axiomNum=111	by thread 0.	
+		axiomNum=112	by thread 0.	
+		axiomNum=113	by thread 0.	
+		axiomNum=114	by thread 0.	
+		axiomNum=115	by thread 0.	
+		axiomNum=116	by thread 0.	
+		axiomNum=117	by thread 0.	
+		axiomNum=118	by thread 0.	
+		axiomNum=119	by thread 0.	
+		axiomNum=120	by thread 0.	
+		axiomNum=121	by thread 0.	
+		axiomNum=122	by thread 0.	
+		axiomNum=123	by thread 0.	
+		axiomNum=124	by thread 0.	
+		axiomNum=125	by thread 0.	
+		axiomNum=126	by thread 0.	
+		axiomNum=127	by thread 0.	
+		axiomNum=128	by thread 0.	
+		axiomNum=129	by thread 0.	
+		axiomNum=130	by thread 0.	
+		axiomNum=131	by thread 0.	
+		axiomNum=132	by thread 0.	
+		axiomNum=133	by thread 0.	
+		axiomNum=134	by thread 0.	
+		axiomNum=135	by thread 0.	
+		axiomNum=136	by thread 0.	
+		axiomNum=137	by thread 0.	
+		axiomNum=138	by thread 0.	
+		axiomNum=139	by thread 0.	
+		axiomNum=140	by thread 0.	
+		axiomNum=141	by thread 0.	
+		axiomNum=142	by thread 0.	
+		axiomNum=143	by thread 0.	
+		axiomNum=144	by thread 0.	
+		axiomNum=145	by thread 0.	
+		axiomNum=146	by thread 0.	
+		axiomNum=147	by thread 0.	
+		axiomNum=148	by thread 0.	
+		axiomNum=149	by thread 0.	
+		axiomNum=150	by thread 0.	
+		axiomNum=151	by thread 0.	
+		axiomNum=152	by thread 0.	
+		axiomNum=153	by thread 0.	
+		axiomNum=154	by thread 0.	
+		axiomNum=155	by thread 0.	
+		axiomNum=156	by thread 0.	
+		axiomNum=157	by thread 0.	
+		axiomNum=158	by thread 0.	
+		axiomNum=159	by thread 0.	
+		axiomNum=160	by thread 0.	
+		axiomNum=161	by thread 0.	
+		axiomNum=162	by thread 0.	
+		axiomNum=163	by thread 0.	
+		axiomNum=164	by thread 0.	
+		axiomNum=165	by thread 0.	
+		axiomNum=166	by thread 0.	
+		axiomNum=167	by thread 0.	
+		axiomNum=168	by thread 0.	
+		axiomNum=169	by thread 0.	
+		axiomNum=170	by thread 0.	
+		axiomNum=171	by thread 0.	
+		axiomNum=172	by thread 0.	
+		axiomNum=173	by thread 0.	
+		axiomNum=174	by thread 0.	
+		axiomNum=175	by thread 0.	
+		axiomNum=176	by thread 0.	
+		axiomNum=177	by thread 0.	
+		axiomNum=178	by thread 0.	
+		axiomNum=179	by thread 0.	
+		axiomNum=180	by thread 0.	
+		axiomNum=181	by thread 0.	
+		axiomNum=182	by thread 0.	
+		axiomNum=183	by thread 0.	
+		axiomNum=184	by thread 0.	
+		axiomNum=185	by thread 0.	
+		axiomNum=186	by thread 0.	
+		axiomNum=187	by thread 0.	
+		axiomNum=188	by thread 0.	
+		axiomNum=189	by thread 0.	
+		axiomNum=190	by thread 0.	
+		axiomNum=191	by thread 0.	
+		axiomNum=192	by thread 0.	
+		axiomNum=193	by thread 0.	
+		axiomNum=194	by thread 0.	
+		axiomNum=195	by thread 0.	
+		axiomNum=196	by thread 0.	
+		axiomNum=197	by thread 0.	
+		axiomNum=198	by thread 0.	
+		axiomNum=199	by thread 0.	
+		axiomNum=200	by thread 0.	
+		axiomNum=201	by thread 0.	
+		axiomNum=202	by thread 0.	
+		axiomNum=203	by thread 0.	
+		axiomNum=204	by thread 0.	
+		axiomNum=205	by thread 0.	
+		axiomNum=206	by thread 0.	
+		axiomNum=207	by thread 0.	
+		axiomNum=208	by thread 0.	
+		axiomNum=209	by thread 0.	
+		axiomNum=210	by thread 0.	
+		axiomNum=211	by thread 0.	
+		axiomNum=212	by thread 0.	
+		axiomNum=213	by thread 0.	
+		axiomNum=214	by thread 0.	
+		axiomNum=215	by thread 0.	
+		axiomNum=216	by thread 0.	
+		axiomNum=217	by thread 0.	
+		axiomNum=218	by thread 0.	
+		axiomNum=219	by thread 0.	
+		axiomNum=220	by thread 0.	
+		axiomNum=221	by thread 0.	
+		axiomNum=222	by thread 0.	
+		axiomNum=223	by thread 0.	
+		axiomNum=224	by thread 0.	
+		axiomNum=225	by thread 0.	
+		axiomNum=226	by thread 0.	
+		axiomNum=227	by thread 0.	
+		axiomNum=228	by thread 0.	
+		axiomNum=229	by thread 0.	
+		axiomNum=230	by thread 0.	
+		axiomNum=231	by thread 0.	
+		axiomNum=232	by thread 0.	
+		axiomNum=233	by thread 0.	
+		axiomNum=234	by thread 0.	
+		axiomNum=235	by thread 0.	
+		axiomNum=236	by thread 0.	
+		axiomNum=237	by thread 0.	
+		axiomNum=238	by thread 0.	
+		axiomNum=239	by thread 0.	
+		axiomNum=240	by thread 0.	
+		axiomNum=241	by thread 0.	
+		axiomNum=242	by thread 0.	
+		axiomNum=243	by thread 0.	
+		axiomNum=244	by thread 0.	
+		axiomNum=245	by thread 0.	
+		axiomNum=246	by thread 0.	
+		axiomNum=247	by thread 0.	
+		axiomNum=248	by thread 0.	
+		axiomNum=249	by thread 0.	
+		axiomNum=250	by thread 0.	
+		axiomNum=251	by thread 0.	
+		axiomNum=252	by thread 0.	
+		axiomNum=253	by thread 0.	
+		axiomNum=254	by thread 0.	
+		axiomNum=255	by thread 0.	
+		axiomNum=256	by thread 0.	
+		axiomNum=257	by thread 0.	
+		axiomNum=258	by thread 0.	
+		axiomNum=259	by thread 0.	
+		axiomNum=260	by thread 0.	
+		axiomNum=261	by thread 0.	
+		axiomNum=262	by thread 0.	
+		axiomNum=263	by thread 0.	
+		axiomNum=264	by thread 0.	
+		axiomNum=265	by thread 0.	
+		axiomNum=266	by thread 0.	
+		axiomNum=267	by thread 0.	
+		axiomNum=268	by thread 0.	
+		axiomNum=269	by thread 0.	
+		axiomNum=270	by thread 0.	
+		axiomNum=271	by thread 0.	
+		axiomNum=272	by thread 0.	
+		axiomNum=273	by thread 0.	
+		axiomNum=274	by thread 0.	
+		axiomNum=275	by thread 0.	
+		axiomNum=276	by thread 0.	
+		axiomNum=277	by thread 0.	
+		axiomNum=278	by thread 0.	
+		axiomNum=279	by thread 0.	
+		axiomNum=280	by thread 0.	
+		axiomNum=281	by thread 0.	
+		axiomNum=282	by thread 0.	
+		axiomNum=283	by thread 0.	
+		axiomNum=284	by thread 0.	
+		axiomNum=285	by thread 0.	
+		axiomNum=286	by thread 0.	
+		axiomNum=287	by thread 0.	
+		axiomNum=288	by thread 0.	
+		axiomNum=289	by thread 0.	
+		axiomNum=290	by thread 0.	
+		axiomNum=291	by thread 0.	
+		axiomNum=292	by thread 0.	
+		axiomNum=293	by thread 0.	
+		axiomNum=294	by thread 0.	
+		axiomNum=295	by thread 0.	
+		axiomNum=296	by thread 0.	
+		axiomNum=297	by thread 0.	
+		axiomNum=298	by thread 0.	
+		axiomNum=299	by thread 0.	
+		axiomNum=300	by thread 0.	
+		axiomNum=301	by thread 0.	
+		axiomNum=302	by thread 0.	
+		axiomNum=303	by thread 0.	
+		axiomNum=304	by thread 0.	
+		axiomNum=305	by thread 0.	
+		axiomNum=306	by thread 0.	
+		axiomNum=307	by thread 0.	
+		axiomNum=308	by thread 0.	
+		axiomNum=309	by thread 0.	
+		axiomNum=310	by thread 0.	
+		axiomNum=311	by thread 0.	
+		axiomNum=312	by thread 0.	
+		axiomNum=313	by thread 0.	
+		axiomNum=314	by thread 0.	
+		axiomNum=315	by thread 0.	
+		axiomNum=316	by thread 0.	
+		axiomNum=317	by thread 0.	
+		axiomNum=318	by thread 0.	
+		axiomNum=319	by thread 0.	
+		axiomNum=320	by thread 0.	
+		axiomNum=321	by thread 0.	
+		axiomNum=322	by thread 0.	
+		axiomNum=323	by thread 0.	
+		axiomNum=324	by thread 0.	
+		axiomNum=325	by thread 0.	
+		axiomNum=326	by thread 0.	
+		axiomNum=327	by thread 0.	
+		axiomNum=328	by thread 0.	
+		axiomNum=329	by thread 0.	
+		axiomNum=330	by thread 0.	
+		axiomNum=331	by thread 0.	
+		axiomNum=332	by thread 0.	
+		axiomNum=333	by thread 0.	
+		axiomNum=334	by thread 0.	
+		axiomNum=335	by thread 0.	
+		axiomNum=336	by thread 0.	
+		axiomNum=337	by thread 0.	
+		axiomNum=338	by thread 0.	
+		axiomNum=339	by thread 0.	
+		axiomNum=340	by thread 0.	
+		axiomNum=341	by thread 0.	
+		axiomNum=342	by thread 0.	
+		axiomNum=343	by thread 0.	
+		axiomNum=344	by thread 0.	
+		axiomNum=345	by thread 0.	
+		axiomNum=346	by thread 0.	
+		axiomNum=347	by thread 0.	
+		axiomNum=348	by thread 0.	
+		axiomNum=349	by thread 0.	
+		axiomNum=350	by thread 0.	
+		axiomNum=351	by thread 0.	
+		axiomNum=352	by thread 0.	
+		axiomNum=353	by thread 0.	
+		axiomNum=354	by thread 0.	
+		axiomNum=355	by thread 0.	
+		axiomNum=356	by thread 0.	
+		axiomNum=357	by thread 0.	
+		axiomNum=358	by thread 0.	
+		axiomNum=359	by thread 0.	
+		axiomNum=360	by thread 0.	
+		axiomNum=361	by thread 0.	
+		axiomNum=362	by thread 0.	
+		axiomNum=363	by thread 0.	
+		axiomNum=364	by thread 0.	
+		axiomNum=365	by thread 0.	
+		axiomNum=366	by thread 0.	
+		axiomNum=367	by thread 0.	
+		axiomNum=368	by thread 0.	
+		axiomNum=369	by thread 0.	
+		axiomNum=370	by thread 0.	
+		axiomNum=371	by thread 0.	
+		axiomNum=372	by thread 0.	
+		axiomNum=373	by thread 0.	
+		axiomNum=374	by thread 0.	
+		axiomNum=375	by thread 0.	
+		axiomNum=376	by thread 0.	
+		axiomNum=377	by thread 0.	
+		axiomNum=378	by thread 0.	
+		axiomNum=379	by thread 0.	
+		axiomNum=380	by thread 0.	
+		axiomNum=381	by thread 0.	
+		axiomNum=382	by thread 0.	
+		axiomNum=383	by thread 0.	
+		axiomNum=384	by thread 0.	
+		axiomNum=385	by thread 0.	
+		axiomNum=386	by thread 0.	
+		axiomNum=387	by thread 0.	
+		axiomNum=388	by thread 0.	
+		axiomNum=389	by thread 0.	
+		axiomNum=390	by thread 0.	
+		axiomNum=391	by thread 0.	
+		axiomNum=392	by thread 0.	
+		axiomNum=393	by thread 0.	
+		axiomNum=394	by thread 0.	
+		axiomNum=395	by thread 0.	
+		axiomNum=396	by thread 0.	
+		axiomNum=397	by thread 0.	
+		axiomNum=398	by thread 0.	
+		axiomNum=399	by thread 0.	
+		axiomNum=400	by thread 0.	
+		axiomNum=401	by thread 0.	
+		axiomNum=402	by thread 0.	
+		axiomNum=403	by thread 0.	
+		axiomNum=404	by thread 0.	
+		axiomNum=405	by thread 0.	
+		axiomNum=406	by thread 0.	
+		axiomNum=407	by thread 0.	
+		axiomNum=408	by thread 0.	
+		axiomNum=409	by thread 0.	
+		axiomNum=410	by thread 0.	
+		axiomNum=411	by thread 0.	
+		axiomNum=412	by thread 0.	
+		axiomNum=413	by thread 0.	
+		axiomNum=414	by thread 0.	
+		axiomNum=415	by thread 0.	
+		axiomNum=416	by thread 0.	
+		axiomNum=417	by thread 0.	
+		axiomNum=418	by thread 0.	
+		axiomNum=419	by thread 0.	
+		axiomNum=420	by thread 0.	
+		axiomNum=421	by thread 0.	
+		axiomNum=422	by thread 0.	
+		axiomNum=423	by thread 0.	
+		axiomNum=424	by thread 0.	
+		axiomNum=425	by thread 0.	
+		axiomNum=426	by thread 0.	
+		axiomNum=427	by thread 0.	
+		axiomNum=428	by thread 0.	
+		axiomNum=429	by thread 0.	
+		axiomNum=430	by thread 0.	
+		axiomNum=431	by thread 0.	
+		axiomNum=432	by thread 0.	
+		axiomNum=433	by thread 0.	
+		axiomNum=434	by thread 0.	
+		axiomNum=435	by thread 0.	
+		axiomNum=436	by thread 0.	
+		axiomNum=437	by thread 0.	
+		axiomNum=438	by thread 0.	
+		axiomNum=439	by thread 0.	
+		axiomNum=440	by thread 0.	
+		axiomNum=441	by thread 0.	
+		axiomNum=442	by thread 0.	
+		axiomNum=443	by thread 0.	
+		axiomNum=444	by thread 0.	
+		axiomNum=445	by thread 0.	
+		axiomNum=446	by thread 0.	
+		axiomNum=447	by thread 0.	
+		axiomNum=448	by thread 0.	
+		axiomNum=449	by thread 0.	
+		axiomNum=450	by thread 0.	
+		axiomNum=451	by thread 0.	
+		axiomNum=452	by thread 0.	
+		axiomNum=453	by thread 0.	
+		axiomNum=454	by thread 0.	
+		axiomNum=455	by thread 0.	
+		axiomNum=456	by thread 0.	
+		axiomNum=457	by thread 0.	
+		axiomNum=458	by thread 0.	
+		axiomNum=459	by thread 0.	
+		axiomNum=460	by thread 0.	
+		axiomNum=461	by thread 0.	
+		axiomNum=462	by thread 0.	
+		axiomNum=463	by thread 0.	
+		axiomNum=464	by thread 0.	
+		axiomNum=465	by thread 0.	
+		axiomNum=466	by thread 0.	
+		axiomNum=467	by thread 0.	
+		axiomNum=468	by thread 0.	
+		axiomNum=469	by thread 0.	
+		axiomNum=470	by thread 0.	
+		axiomNum=471	by thread 0.	
+		axiomNum=472	by thread 0.	
+		axiomNum=473	by thread 0.	
+		axiomNum=474	by thread 0.	
+		axiomNum=475	by thread 0.	
+		axiomNum=476	by thread 0.	
+		axiomNum=477	by thread 0.	
+		axiomNum=478	by thread 0.	
+		axiomNum=479	by thread 0.	
+		axiomNum=480	by thread 0.	
+		axiomNum=481	by thread 0.	
+		axiomNum=482	by thread 0.	
+		axiomNum=483	by thread 0.	
+		axiomNum=484	by thread 0.	
+		axiomNum=485	by thread 0.	
+		axiomNum=486	by thread 0.	
+		axiomNum=487	by thread 0.	
+		axiomNum=488	by thread 0.	
+		axiomNum=489	by thread 0.	
+		axiomNum=490	by thread 0.	
+		axiomNum=491	by thread 0.	
+		axiomNum=492	by thread 0.	
+		axiomNum=493	by thread 0.	
+		axiomNum=494	by thread 0.	
+		axiomNum=495	by thread 0.	
+		axiomNum=496	by thread 0.	
+		axiomNum=497	by thread 0.	
+		axiomNum=498	by thread 0.	
+		axiomNum=499	by thread 0.	
+		axiomNum=500	by thread 0.	
+		axiomNum=501	by thread 0.	
+		axiomNum=502	by thread 0.	
+		axiomNum=503	by thread 0.	
+		axiomNum=504	by thread 0.	
+		axiomNum=505	by thread 0.	
+		axiomNum=506	by thread 0.	
+		axiomNum=507	by thread 0.	
+		axiomNum=508	by thread 0.	
+		axiomNum=509	by thread 0.	
+		axiomNum=510	by thread 0.	
+		axiomNum=511	by thread 0.	
+		axiomNum=512	by thread 0.	
+		axiomNum=513	by thread 0.	
+		axiomNum=514	by thread 0.	
+		axiomNum=515	by thread 0.	
+		axiomNum=516	by thread 0.	
+		axiomNum=517	by thread 0.	
+		axiomNum=518	by thread 0.	
+		axiomNum=519	by thread 0.	
+		axiomNum=520	by thread 0.	
+		axiomNum=521	by thread 0.	
+		axiomNum=522	by thread 0.	
+		axiomNum=523	by thread 0.	
+		axiomNum=524	by thread 0.	
+		axiomNum=525	by thread 0.	
+		axiomNum=526	by thread 0.	
+		axiomNum=527	by thread 0.	
+		axiomNum=528	by thread 0.	
+		axiomNum=529	by thread 0.	
+		axiomNum=530	by thread 0.	
+		axiomNum=531	by thread 0.	
+		axiomNum=532	by thread 0.	
+		axiomNum=533	by thread 0.	
+		axiomNum=534	by thread 0.	
+		axiomNum=535	by thread 0.	
+		axiomNum=536	by thread 0.	
+		axiomNum=537	by thread 0.	
+		axiomNum=538	by thread 0.	
+		axiomNum=539	by thread 0.	
+		axiomNum=540	by thread 0.	
+		axiomNum=541	by thread 0.	
+		axiomNum=542	by thread 0.	
+		axiomNum=543	by thread 0.	
+		axiomNum=544	by thread 0.	
+		axiomNum=545	by thread 0.	
+		axiomNum=546	by thread 0.	
+		axiomNum=547	by thread 0.	
+		axiomNum=548	by thread 0.	
+		axiomNum=549	by thread 0.	
+		axiomNum=550	by thread 0.	
+		axiomNum=551	by thread 0.	
+		axiomNum=552	by thread 0.	
+		axiomNum=553	by thread 0.	
+		axiomNum=554	by thread 0.	
+		axiomNum=555	by thread 0.	
+		axiomNum=556	by thread 0.	
+		axiomNum=557	by thread 0.	
+		axiomNum=558	by thread 0.	
+		axiomNum=559	by thread 0.	
+		axiomNum=560	by thread 0.	
+		axiomNum=561	by thread 0.	
+		axiomNum=562	by thread 0.	
+		axiomNum=563	by thread 0.	
+		axiomNum=564	by thread 0.	
+		axiomNum=565	by thread 0.	
+		axiomNum=566	by thread 0.	
+		axiomNum=567	by thread 0.	
+		axiomNum=568	by thread 0.	
+		axiomNum=569	by thread 0.	
+		axiomNum=570	by thread 0.	
+		axiomNum=571	by thread 0.	
+		axiomNum=572	by thread 0.	
+		axiomNum=573	by thread 0.	
+		axiomNum=574	by thread 0.	
+		axiomNum=575	by thread 0.	
+		axiomNum=576	by thread 0.	
+		axiomNum=577	by thread 0.	
+		axiomNum=578	by thread 0.	
+		axiomNum=579	by thread 0.	
+		axiomNum=580	by thread 0.	
+		axiomNum=581	by thread 0.	
+		axiomNum=582	by thread 0.	
+		axiomNum=583	by thread 0.	
+		axiomNum=584	by thread 0.	
+		axiomNum=585	by thread 0.	
+		axiomNum=586	by thread 0.	
+		axiomNum=587	by thread 0.	
+		axiomNum=588	by thread 0.	
+		axiomNum=589	by thread 0.	
+		axiomNum=590	by thread 0.	
+		axiomNum=591	by thread 0.	
+		axiomNum=592	by thread 0.	
+		axiomNum=593	by thread 0.	
+		axiomNum=594	by thread 0.	
+		axiomNum=595	by thread 0.	
+		axiomNum=596	by thread 0.	
+		axiomNum=597	by thread 0.	
+		axiomNum=598	by thread 0.	
+		axiomNum=599	by thread 0.	
+		axiomNum=600	by thread 0.	
+		axiomNum=601	by thread 0.	
+		axiomNum=602	by thread 0.	
+		axiomNum=603	by thread 0.	
+		axiomNum=604	by thread 0.	
+		axiomNum=605	by thread 0.	
+		axiomNum=606	by thread 0.	
+		axiomNum=607	by thread 0.	
+		axiomNum=608	by thread 0.	
+		axiomNum=609	by thread 0.	
+		axiomNum=610	by thread 0.	
+		axiomNum=611	by thread 0.	
+		axiomNum=612	by thread 0.	
+		axiomNum=613	by thread 0.	
+		axiomNum=614	by thread 0.	
+		axiomNum=615	by thread 0.	
+		axiomNum=616	by thread 0.	
+		axiomNum=617	by thread 0.	
+		axiomNum=618	by thread 0.	
+		axiomNum=619	by thread 0.	
+		axiomNum=620	by thread 0.	
+		axiomNum=621	by thread 0.	
+		axiomNum=622	by thread 0.	
+		axiomNum=623	by thread 0.	
+		axiomNum=624	by thread 0.	
+		axiomNum=625	by thread 0.	
+		axiomNum=626	by thread 0.	
+		axiomNum=627	by thread 0.	
+		axiomNum=628	by thread 0.	
+		axiomNum=629	by thread 0.	
+		axiomNum=630	by thread 0.	
+		axiomNum=631	by thread 0.	
+		axiomNum=632	by thread 0.	
+		axiomNum=633	by thread 0.	
+		axiomNum=634	by thread 0.	
+		axiomNum=635	by thread 0.	
+		axiomNum=636	by thread 0.	
+		axiomNum=637	by thread 0.	
+		axiomNum=638	by thread 0.	
+		axiomNum=639	by thread 0.	
+		axiomNum=640	by thread 0.	
+		axiomNum=641	by thread 0.	
+		axiomNum=642	by thread 0.	
+		axiomNum=643	by thread 0.	
+		axiomNum=644	by thread 0.	
+		axiomNum=645	by thread 0.	
+		axiomNum=646	by thread 0.	
+		axiomNum=647	by thread 0.	
+		axiomNum=648	by thread 0.	
+		axiomNum=649	by thread 0.	
+		axiomNum=650	by thread 0.	
+		axiomNum=651	by thread 0.	
+		axiomNum=652	by thread 0.	
+		axiomNum=653	by thread 0.	
+		axiomNum=654	by thread 0.	
+		axiomNum=655	by thread 0.	
+		axiomNum=656	by thread 0.	
+		axiomNum=657	by thread 0.	
+		axiomNum=658	by thread 0.	
+		axiomNum=659	by thread 0.	
+		axiomNum=660	by thread 0.	
+		axiomNum=661	by thread 0.	
+		axiomNum=662	by thread 0.	
+		axiomNum=663	by thread 0.	
+		axiomNum=664	by thread 0.	
+		axiomNum=665	by thread 0.	
+		axiomNum=666	by thread 0.	
+		axiomNum=667	by thread 0.	
+		axiomNum=668	by thread 0.	
+		axiomNum=669	by thread 0.	
+		axiomNum=670	by thread 0.	
+		axiomNum=671	by thread 0.	
+		axiomNum=672	by thread 0.	
+		axiomNum=673	by thread 0.	
+		axiomNum=674	by thread 0.	
+		axiomNum=675	by thread 0.	
+		axiomNum=676	by thread 0.	
+		axiomNum=677	by thread 0.	
+		axiomNum=678	by thread 0.	
+		axiomNum=679	by thread 0.	
+		axiomNum=680	by thread 0.	
+		axiomNum=681	by thread 0.	
+		axiomNum=682	by thread 0.	
+		axiomNum=683	by thread 0.	
+		axiomNum=684	by thread 0.	
+		axiomNum=685	by thread 0.	
+		axiomNum=686	by thread 0.	
+		axiomNum=687	by thread 0.	
+		axiomNum=688	by thread 0.	
+		axiomNum=689	by thread 0.	
+		axiomNum=690	by thread 0.	
+		axiomNum=691	by thread 0.	
+		axiomNum=692	by thread 0.	
+		axiomNum=693	by thread 0.	
+		axiomNum=694	by thread 0.	
+		axiomNum=695	by thread 0.	
+		axiomNum=696	by thread 0.	
+		axiomNum=697	by thread 0.	
+		axiomNum=698	by thread 0.	
+		axiomNum=699	by thread 0.	
+		axiomNum=700	by thread 0.	
+		axiomNum=701	by thread 0.	
+		axiomNum=702	by thread 0.	
+		axiomNum=703	by thread 0.	
+		axiomNum=704	by thread 0.	
+		axiomNum=705	by thread 0.	
+		axiomNum=706	by thread 0.	
+		axiomNum=707	by thread 0.	
+		axiomNum=708	by thread 0.	
+		axiomNum=709	by thread 0.	
+		axiomNum=710	by thread 0.	
+		axiomNum=711	by thread 0.	
+		axiomNum=712	by thread 0.	
+		axiomNum=713	by thread 0.	
+		axiomNum=714	by thread 0.	
+		axiomNum=715	by thread 0.	
+		axiomNum=716	by thread 0.	
+		axiomNum=717	by thread 0.	
+		axiomNum=718	by thread 0.	
+		axiomNum=719	by thread 0.	
+		axiomNum=720	by thread 0.	
+		axiomNum=721	by thread 0.	
+		axiomNum=722	by thread 0.	
+		axiomNum=723	by thread 0.	
+		axiomNum=724	by thread 0.	
+		axiomNum=725	by thread 0.	
+		axiomNum=726	by thread 0.	
+		axiomNum=727	by thread 0.	
+		axiomNum=728	by thread 0.	
+		axiomNum=729	by thread 0.	
+		axiomNum=730	by thread 0.	
+		axiomNum=731	by thread 0.	
+		axiomNum=732	by thread 0.	
+		axiomNum=733	by thread 0.	
+		axiomNum=734	by thread 0.	
+		axiomNum=735	by thread 0.	
+		axiomNum=736	by thread 0.	
+		axiomNum=737	by thread 0.	
+		axiomNum=738	by thread 0.	
+		axiomNum=739	by thread 0.	
+		axiomNum=740	by thread 0.	
+		axiomNum=741	by thread 0.	
+		axiomNum=742	by thread 0.	
+		axiomNum=743	by thread 0.	
+		axiomNum=744	by thread 0.	
+		axiomNum=745	by thread 0.	
+		axiomNum=746	by thread 0.	
+		axiomNum=747	by thread 0.	
+		axiomNum=748	by thread 0.	
+		axiomNum=749	by thread 0.	
+		axiomNum=750	by thread 0.	
+		axiomNum=751	by thread 0.	
+		axiomNum=752	by thread 0.	
+		axiomNum=753	by thread 0.	
+		axiomNum=754	by thread 0.	
+		axiomNum=755	by thread 0.	
+		axiomNum=756	by thread 0.	
+		axiomNum=757	by thread 0.	
+		axiomNum=758	by thread 0.	
+		axiomNum=759	by thread 0.	
+		axiomNum=760	by thread 0.	
+		axiomNum=761	by thread 0.	
+		axiomNum=762	by thread 0.	
+		axiomNum=763	by thread 0.	
+		axiomNum=764	by thread 0.	
+		axiomNum=765	by thread 0.	
+		axiomNum=766	by thread 0.	
+		axiomNum=767	by thread 0.	
+		axiomNum=768	by thread 0.	
+		axiomNum=769	by thread 0.	
+		axiomNum=770	by thread 0.	
+		axiomNum=771	by thread 0.	
+		axiomNum=772	by thread 0.	
+		axiomNum=773	by thread 0.	
+		axiomNum=774	by thread 0.	
+		axiomNum=775	by thread 0.	
+		axiomNum=776	by thread 0.	
+		axiomNum=777	by thread 0.	
+		axiomNum=778	by thread 0.	
+		axiomNum=779	by thread 0.	
+		axiomNum=780	by thread 0.	
+		axiomNum=781	by thread 0.	
+		axiomNum=782	by thread 0.	
+		axiomNum=783	by thread 0.	
+		axiomNum=784	by thread 0.	
+		axiomNum=785	by thread 0.	
+		axiomNum=786	by thread 0.	
+		axiomNum=787	by thread 0.	
+		axiomNum=788	by thread 0.	
+		axiomNum=789	by thread 0.	
+		axiomNum=790	by thread 0.	
+		axiomNum=791	by thread 0.	
+		axiomNum=792	by thread 0.	
+		axiomNum=793	by thread 0.	
+		axiomNum=794	by thread 0.	
+		axiomNum=795	by thread 0.	
+		axiomNum=796	by thread 0.	
+		axiomNum=797	by thread 0.	
+		axiomNum=798	by thread 0.	
+		axiomNum=799	by thread 0.	
+		axiomNum=800	by thread 0.	
+		axiomNum=801	by thread 0.	
+		axiomNum=802	by thread 0.	
+		axiomNum=803	by thread 0.	
+		axiomNum=804	by thread 0.	
+		axiomNum=805	by thread 0.	
+		axiomNum=806	by thread 0.	
+		axiomNum=807	by thread 0.	
+		axiomNum=808	by thread 0.	
+		axiomNum=809	by thread 0.	
+		axiomNum=810	by thread 0.	
+		axiomNum=811	by thread 0.	
+		axiomNum=812	by thread 0.	
+		axiomNum=813	by thread 0.	
+		axiomNum=814	by thread 0.	
+		axiomNum=815	by thread 0.	
+		axiomNum=816	by thread 0.	
+		axiomNum=817	by thread 0.	
+		axiomNum=818	by thread 0.	
+		axiomNum=819	by thread 0.	
+		axiomNum=820	by thread 0.	
+		axiomNum=821	by thread 0.	
+		axiomNum=822	by thread 0.	
+		axiomNum=823	by thread 0.	
+		axiomNum=824	by thread 0.	
+		axiomNum=825	by thread 0.	
+		axiomNum=826	by thread 0.	
+		axiomNum=827	by thread 0.	
+		axiomNum=828	by thread 0.	
+		axiomNum=829	by thread 0.	
+		axiomNum=830	by thread 0.	
+		axiomNum=831	by thread 0.	
+		axiomNum=832	by thread 0.	
+		axiomNum=833	by thread 0.	
+		axiomNum=834	by thread 0.	
+		axiomNum=835	by thread 0.	
+		axiomNum=836	by thread 0.	
+		axiomNum=837	by thread 0.	
+		axiomNum=838	by thread 0.	
+		axiomNum=839	by thread 0.	
+		axiomNum=840	by thread 0.	
+		axiomNum=841	by thread 0.	
+		axiomNum=842	by thread 0.	
+		axiomNum=843	by thread 0.	
+		axiomNum=844	by thread 0.	
+		axiomNum=845	by thread 0.	
+		axiomNum=846	by thread 0.	
+		axiomNum=847	by thread 0.	
+		axiomNum=848	by thread 0.	
+		axiomNum=849	by thread 0.	
+		axiomNum=850	by thread 0.	
+		axiomNum=851	by thread 0.	
+		axiomNum=852	by thread 0.	
+		axiomNum=853	by thread 0.	
+		axiomNum=854	by thread 0.	
+		axiomNum=855	by thread 0.	
+		axiomNum=856	by thread 0.	
+		axiomNum=857	by thread 0.	
+		axiomNum=858	by thread 0.	
+		axiomNum=859	by thread 0.	
+		axiomNum=860	by thread 0.	
+		axiomNum=861	by thread 0.	
+		axiomNum=862	by thread 0.	
+		axiomNum=863	by thread 0.	
+		axiomNum=864	by thread 0.	
+		axiomNum=865	by thread 0.	
+		axiomNum=866	by thread 0.	
+		axiomNum=867	by thread 0.	
+		axiomNum=868	by thread 0.	
+		axiomNum=869	by thread 0.	
+		axiomNum=870	by thread 0.	
+		axiomNum=871	by thread 0.	
+		axiomNum=872	by thread 0.	
+		axiomNum=873	by thread 0.	
+		axiomNum=874	by thread 0.	
+		axiomNum=875	by thread 0.	
+		axiomNum=876	by thread 0.	
+		axiomNum=877	by thread 0.	
+		axiomNum=878	by thread 0.	
+		axiomNum=879	by thread 0.	
+		axiomNum=880	by thread 0.	
+		axiomNum=881	by thread 0.	
+		axiomNum=882	by thread 0.	
+		axiomNum=883	by thread 0.	
+		axiomNum=884	by thread 0.	
+		axiomNum=885	by thread 0.	
+		axiomNum=886	by thread 0.	
+		axiomNum=887	by thread 0.	
+		axiomNum=888	by thread 0.	
+		axiomNum=889	by thread 0.	
+		axiomNum=890	by thread 0.	
+		axiomNum=891	by thread 0.	
+		axiomNum=892	by thread 0.	
+		axiomNum=893	by thread 0.	
+		axiomNum=894	by thread 0.	
+		axiomNum=895	by thread 0.	
+		axiomNum=896	by thread 0.	
+		axiomNum=897	by thread 0.	
+		axiomNum=898	by thread 0.	
+		axiomNum=899	by thread 0.	
+		axiomNum=900	by thread 0.	
+		axiomNum=901	by thread 0.	
+		axiomNum=902	by thread 0.	
+		axiomNum=903	by thread 0.	
+		axiomNum=904	by thread 0.	
+		axiomNum=905	by thread 0.	
+		axiomNum=906	by thread 0.	
+		axiomNum=907	by thread 0.	
+		axiomNum=908	by thread 0.	
+		axiomNum=909	by thread 0.	
+		axiomNum=910	by thread 0.	
+		axiomNum=911	by thread 0.	
+		axiomNum=912	by thread 0.	
+		axiomNum=913	by thread 0.	
+		axiomNum=914	by thread 0.	
+		axiomNum=915	by thread 0.	
+		axiomNum=916	by thread 0.	
+		axiomNum=917	by thread 0.	
+		axiomNum=918	by thread 0.	
+		axiomNum=919	by thread 0.	
+		axiomNum=920	by thread 0.	
+		axiomNum=921	by thread 0.	
+		axiomNum=922	by thread 0.	
+		axiomNum=923	by thread 0.	
+		axiomNum=924	by thread 0.	
+		axiomNum=925	by thread 0.	
+		axiomNum=926	by thread 0.	
+		axiomNum=927	by thread 0.	
+		axiomNum=928	by thread 0.	
+		axiomNum=929	by thread 0.	
+		axiomNum=930	by thread 0.	
+		axiomNum=931	by thread 0.	
+		axiomNum=932	by thread 0.	
+		axiomNum=933	by thread 0.	
+		axiomNum=934	by thread 0.	
+		axiomNum=935	by thread 0.	
+		axiomNum=936	by thread 0.	
+		axiomNum=937	by thread 0.	
+		axiomNum=938	by thread 0.	
+		axiomNum=939	by thread 0.	
+		axiomNum=940	by thread 0.	
+		axiomNum=941	by thread 0.	
+		axiomNum=942	by thread 0.	
+		axiomNum=943	by thread 0.	
+		axiomNum=944	by thread 0.	
+		axiomNum=945	by thread 0.	
+		axiomNum=946	by thread 0.	
+		axiomNum=947	by thread 0.	
+		axiomNum=948	by thread 0.	
+		axiomNum=949	by thread 0.	
+		axiomNum=950	by thread 0.	
+		axiomNum=951	by thread 0.	
+		axiomNum=952	by thread 0.	
+		axiomNum=953	by thread 0.	
+		axiomNum=954	by thread 0.	
+		axiomNum=955	by thread 0.	
+		axiomNum=956	by thread 0.	
+		axiomNum=957	by thread 0.	
+		axiomNum=958	by thread 0.	
+		axiomNum=959	by thread 0.	
+		axiomNum=960	by thread 0.	
+		axiomNum=961	by thread 0.	
+		axiomNum=962	by thread 0.	
+		axiomNum=963	by thread 0.	
+		axiomNum=964	by thread 0.	
+		axiomNum=965	by thread 0.	
+		axiomNum=966	by thread 0.	
+		axiomNum=967	by thread 0.	
+		axiomNum=968	by thread 0.	
+		axiomNum=969	by thread 0.	
+		axiomNum=970	by thread 0.	
+		axiomNum=971	by thread 0.	
+		axiomNum=972	by thread 0.	
+		axiomNum=973	by thread 0.	
+		axiomNum=974	by thread 0.	
+		axiomNum=975	by thread 0.	
+		axiomNum=976	by thread 0.	
+		axiomNum=977	by thread 0.	
+		axiomNum=978	by thread 0.	
+		axiomNum=979	by thread 0.	
+		axiomNum=980	by thread 0.	
+		axiomNum=981	by thread 0.	
+		axiomNum=982	by thread 0.	
+		axiomNum=983	by thread 0.	
+		axiomNum=984	by thread 0.	
+		axiomNum=985	by thread 0.	
+		axiomNum=986	by thread 0.	
+		axiomNum=987	by thread 0.	
+		axiomNum=988	by thread 0.	
+		axiomNum=989	by thread 0.	
+		axiomNum=990	by thread 0.	
+		axiomNum=991	by thread 0.	
+		axiomNum=992	by thread 0.	
+		axiomNum=993	by thread 0.	
+		axiomNum=994	by thread 0.	
+		axiomNum=995	by thread 0.	
+		axiomNum=996	by thread 0.	
+		axiomNum=997	by thread 0.	
+		axiomNum=998	by thread 0.	
+		axiomNum=999	by thread 0.	
+		axiomNum=1000	by thread 0.	
+		axiomNum=1001	by thread 0.	
+		axiomNum=1002	by thread 0.	
+		axiomNum=1003	by thread 0.	
+		axiomNum=1004	by thread 0.	
+		axiomNum=1005	by thread 0.	
+		axiomNum=1006	by thread 0.	
+		axiomNum=1007	by thread 0.	
+	AbType: 0	Iteration: 1	Number of axioms: 1008	by thread 0.	
+Cut down size : 20; Creating sat points for axioms...
+Finished creating sat points for axioms
+Creating axiom combinations
+	AbType: 0	Iteration: 2	Number of axioms: 189	by thread 0.	
+Cut down size : 20; Creating sat points for axioms...
+Finished creating sat points for axioms
+Creating axiom combinations
+	AbType: 0	Iteration: 3	Number of axioms: 180	by thread 0.	
+Cut down size : 20; Creating sat points for axioms...
+Finished creating sat points for axioms
+Creating axiom combinations
+Stopping because maximum number of iterations exceeded
+Abnormal type 0, final number of axioms : 20
+Finished selecting axioms for abnormal type 0
+Finished creating axioms. Axiom count: 20
+	Current axiomSet: 1 out of 20. Goal value is 200.00 (0, 10).	Thread 0.	
+	Current axiomSet: 5 out of 20. Goal value is 32.00 (32, 0).	Thread 0.	
+	Current axiomSet: 4 out of 20. Goal value is 510.00 (510, 0).	Thread 2.	
+	Current axiomSet: 7 out of 20. Goal value is 106.00 (6, 5).	Thread 2.	
+	Current axiomSet: 3 out of 20. Goal value is 511.00 (511, 0).	Thread 3.	
+	Current axiomSet: 6 out of 20. Goal value is 500.00 (500, 0).	Thread 0.	
+	Current axiomSet: 2 out of 20. Goal value is 515.00 (515, 0).	Thread 1.	
+	Current axiomSet: 11 out of 20. Goal value is 32.00 (32, 0).	Thread 1.	
+	Current axiomSet: 12 out of 20. Goal value is 163.00 (3, 8).	Thread 1.	
+	Current axiomSet: 10 out of 20. Goal value is 515.00 (515, 0).	Thread 0.	
+	Current axiomSet: 14 out of 20. Goal value is 32.00 (32, 0).	Thread 0.	
+	Current axiomSet: 9 out of 20. Goal value is 509.00 (509, 0).	Thread 3.	
+	Current axiomSet: 15 out of 20. Goal value is 32.00 (32, 0).	Thread 0.	
+	Current axiomSet: 13 out of 20. Goal value is 501.00 (501, 0).	Thread 1.	
+	Current axiomSet: 16 out of 20. Goal value is 32.00 (32, 0).	Thread 3.	
+	Current axiomSet: 8 out of 20. Goal value is 523.00 (523, 0).	Thread 2.	
+	Current axiomSet: 19 out of 20. Goal value is 32.00 (32, 0).	Thread 3.	
+	Current axiomSet: 20 out of 20. Goal value is 32.00 (32, 0).	Thread 2.	
+	Current axiomSet: 18 out of 20. Goal value is 511.00 (511, 0).	Thread 1.	
+	Current axiomSet: 17 out of 20. Goal value is 504.00 (504, 0).	Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 1 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 1 out of 20.	 Thread 0.
+	 Best objective value: 39 (39, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 2 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 2 out of 20.	 Thread 0.
+	 Best objective value: 496 (496, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 3 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 3 out of 20.	 Thread 0.
+	 Best objective value: 494 (494, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 4 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 4 out of 20.	 Thread 0.
+	 Best objective value: 499 (499, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 5 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 5 out of 20.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 6 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 6 out of 20.	 Thread 0.
+	 Best objective value: 499 (499, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 7 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 7 out of 20.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 8 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 8 out of 20.	 Thread 0.
+	 Best objective value: 485 (485, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 9 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 9 out of 20.	 Thread 0.
+	 Best objective value: 486 (486, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 10 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 10 out of 20.	 Thread 0.
+	 Best objective value: 496 (496, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 11 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 11 out of 20.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 12 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 12 out of 20.	 Thread 0.
+	 Best objective value: 39 (39, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 13 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 13 out of 20.	 Thread 0.
+	 Best objective value: 496 (496, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 14 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 14 out of 20.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 15 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 15 out of 20.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 16 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 16 out of 20.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 17 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 17 out of 20.	 Thread 0.
+	 Best objective value: 490 (490, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 18 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 18 out of 20.	 Thread 0.
+	 Best objective value: 494 (494, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 19 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 19 out of 20.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 20 out of 20.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 1	Current axiomSet: 20 out of 20.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 2	Current axiomSet: 1 out of 5.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 2	Current axiomSet: 1 out of 5.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 2	Current axiomSet: 2 out of 5.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 2	Current axiomSet: 2 out of 5.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 2	Current axiomSet: 3 out of 5.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 2	Current axiomSet: 3 out of 5.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 2	Current axiomSet: 4 out of 5.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 2	Current axiomSet: 4 out of 5.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 2	Current axiomSet: 5 out of 5.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 2	Current axiomSet: 5 out of 5.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 3	Current axiomSet: 1 out of 5.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 3	Current axiomSet: 1 out of 5.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 3	Current axiomSet: 2 out of 5.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 3	Current axiomSet: 2 out of 5.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 3	Current axiomSet: 3 out of 5.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 3	Current axiomSet: 3 out of 5.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 3	Current axiomSet: 4 out of 5.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 3	Current axiomSet: 4 out of 5.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+	Proc start point: 1 - 1	Iteration: 3	Current axiomSet: 5 out of 5.	 Thread 0.	
+	Proc start point: 1 - 1	Iteration: 3	Current axiomSet: 5 out of 5.	 Thread 0.
+	 Best objective value: 32 (32, 0)
+Stopping because maximum number of iterations reached
+Best axiom sets:
+stageThree_CharTraj_v1_1	32	(32, 0)
+stageThree_CharTraj_v1_2	32	(32, 0)
+stageThree_CharTraj_v1_3	32	(32, 0)
+stageThree_CharTraj_v1_4	32	(32, 0)
+stageThree_CharTraj_v1_5	32	(32, 0)
+Saving axoiom sets to directory './axiomsets'
+Saving axiom set to ./axiomsets/stageThree_CharTraj_v1_1.xml
+Saving axiom set to ./axiomsets/stageThree_CharTraj_v1_2.xml
+Saving axiom set to ./axiomsets/stageThree_CharTraj_v1_3.xml
+Saving axiom set to ./axiomsets/stageThree_CharTraj_v1_4.xml
+Saving axiom set to ./axiomsets/stageThree_CharTraj_v1_5.xml

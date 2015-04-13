@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="10">
+<AxiomExprSetPlus class_id="0" tracking_level="0" version="0">
+	<AxiomExprSet class_id="1" tracking_level="0" version="0">
+		<nameOfAxiomSet>stageThree_CharTraj_v1_1</nameOfAxiomSet>
+		<nameOfAxiomBank>no_name_AxiomBank</nameOfAxiomBank>
+		<axioms class_id="2" tracking_level="0" version="0">
+			<count>1</count>
+			<item_version>0</item_version>
+			<item class_id="3" tracking_level="1" version="0" object_id="_0">
+				<nameOfAxiomExpr>stageTwo_CharTraj_v1__at_1_16</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression class_id="4" tracking_level="0" version="0">
+					<count>2</count>
+					<item_version>0</item_version>
+					<item class_id="5" tracking_level="0" version="0">
+						<count>1</count>
+						<item_version>0</item_version>
+						<item class_id="6" tracking_level="0" version="0">
+							<elemCondition class_id="7" class_name="BetweenTwoLevels" tracking_level="1" version="0" object_id="_1">
+								<ElemCondition class_id="8" tracking_level="0" version="0">
+									<name>between_two_levels</name>
+								</ElemCondition>
+								<minLimit>-294.91570116871742</minLimit>
+								<maxLimit>252.58620601763329</maxLimit>
+								<levelDelta>3.6500127145756718</levelDelta>
+								<leftLimit>5</leftLimit>
+								<rightLimit>5</rightLimit>
+								<Min>-35.764798433845044</Min>
+								<Max>-17.514734860966676</Max>
+								<Left>5</Left>
+								<Right>5</Right>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name>stageOne_CharTraj_v1__at_1_dim_1_13_1</name>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_2">
+								<ElemCondition>
+									<name>between_two_levels</name>
+								</ElemCondition>
+								<minLimit>-294.91570116871742</minLimit>
+								<maxLimit>252.58620601763329</maxLimit>
+								<levelDelta>3.6500127145756718</levelDelta>
+								<leftLimit>5</leftLimit>
+								<rightLimit>5</rightLimit>
+								<Min>-21.16474757554235</Min>
+								<Max>-17.514734860966676</Max>
+								<Left>3</Left>
+								<Right>0</Right>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name>stageOne_CharTraj_v1__at_1_dim_1_13_14</name>
+						</item>
+					</item>
+				</expression>
+			</item>
+		</axioms>
+	</AxiomExprSet>
+	<goal>61</goal>
+	<errFirst>21</errFirst>
+	<errSecond>2</errSecond>
+	<axiomsIndex>
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>15</item>
+	</axiomsIndex>
+	<markUps class_id="10" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>
+			<count>1</count>
+			<item_version>0</item_version>
+			<item>1</item>
+		</item>
+	</markUps>
+	<multiMarkUps class_id="12" tracking_level="0" version="0">
+		<count>0</count>
+		<item_version>0</item_version>
+	</multiMarkUps>
+	<errors class_id="13" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item class_id="14" tracking_level="0" version="0">
+			<first>21</first>
+			<second>2</second>
+		</item>
+	</errors>
+</AxiomExprSetPlus>
+</boost_serialization>
+
