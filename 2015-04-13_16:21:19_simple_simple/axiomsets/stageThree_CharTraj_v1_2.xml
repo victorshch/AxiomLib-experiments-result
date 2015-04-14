@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="10">
+<AxiomExprSetPlus class_id="0" tracking_level="0" version="0">
+	<AxiomExprSet class_id="1" tracking_level="0" version="0">
+		<nameOfAxiomSet>stageThree_CharTraj_v1_2</nameOfAxiomSet>
+		<nameOfAxiomBank>no_name_AxiomBank</nameOfAxiomBank>
+		<axioms class_id="2" tracking_level="0" version="0">
+			<count>3</count>
+			<item_version>0</item_version>
+			<item class_id="3" tracking_level="1" version="0" object_id="_0">
+				<nameOfAxiomExpr>stageTwo_CharTraj_v1__at_1_10</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression class_id="4" tracking_level="0" version="0">
+					<count>1</count>
+					<item_version>0</item_version>
+					<item class_id="5" tracking_level="0" version="0">
+						<count>1</count>
+						<item_version>0</item_version>
+						<item class_id="6" tracking_level="0" version="0">
+							<elemCondition class_id="7" class_name="SecDerivativeIncreaseLeft" tracking_level="1" version="0" object_id="_1">
+								<ElemCondition class_id="8" tracking_level="0" version="0">
+									<name>second_derivative_increase_left</name>
+								</ElemCondition>
+								<levelDelta>1.9368439678898683</levelDelta>
+								<secDerivIncreaseLeft>2</secDerivIncreaseLeft>
+								<secDerivIncreaseLeftLimit>5</secDerivIncreaseLeftLimit>
+								<secDerivIncreaseMaxLevel>81.348113318041186</secDerivIncreaseMaxLevel>
+								<secDerivIncreaseMaxLevelLimit>290.52726185014694</secDerivIncreaseMaxLevelLimit>
+								<secDerivIncreaseMinLevel>56.16914173547287</secDerivIncreaseMinLevel>
+								<secDerivIncreaseMinLevelLimit>0.00066666666666666664</secDerivIncreaseMinLevelLimit>
+								<secDerivIncreaseRight>0</secDerivIncreaseRight>
+								<secDerivIncreaseRightLimit>0</secDerivIncreaseRightLimit>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name>stageOne_CharTraj_v1__at_1_dim_1_17_23</name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_2">
+				<nameOfAxiomExpr>stageTwo_CharTraj_v1__at_1_17</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id="9" class_name="Integral" tracking_level="1" version="0" object_id="_3">
+								<ElemCondition>
+									<name>integral</name>
+								</ElemCondition>
+								<left>0</left>
+								<leftLimit>5</leftLimit>
+								<levelDelta>14.897577351233958</levelDelta>
+								<maxLevel>106.11464731428583</maxLevel>
+								<maxLevelLimit>1893.8239294623606</maxLevelLimit>
+								<minLevel>-340.812673222733</minLevel>
+								<minLevelLimit>-340.812673222733</minLevelLimit>
+								<right>0</right>
+								<rightLimit>5</rightLimit>
+							</elemCondition>
+							<sign>0</sign>
+							<dimension>1</dimension>
+							<name>stageOne_CharTraj_v1__at_1_dim_1_2_1</name>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_4">
+								<ElemCondition>
+									<name>second_derivative_increase_left</name>
+								</ElemCondition>
+								<levelDelta>1.9368439678898683</levelDelta>
+								<secDerivIncreaseLeft>2</secDerivIncreaseLeft>
+								<secDerivIncreaseLeftLimit>5</secDerivIncreaseLeftLimit>
+								<secDerivIncreaseMaxLevel>81.348113318041186</secDerivIncreaseMaxLevel>
+								<secDerivIncreaseMaxLevelLimit>290.52726185014694</secDerivIncreaseMaxLevelLimit>
+								<secDerivIncreaseMinLevel>56.16914173547287</secDerivIncreaseMinLevel>
+								<secDerivIncreaseMinLevelLimit>0.00066666666666666664</secDerivIncreaseMinLevelLimit>
+								<secDerivIncreaseRight>0</secDerivIncreaseRight>
+								<secDerivIncreaseRightLimit>0</secDerivIncreaseRightLimit>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name>stageOne_CharTraj_v1__at_1_dim_1_17_23</name>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id="10" class_name="Volatility" tracking_level="1" version="0" object_id="_5">
+								<ElemCondition>
+									<name>volatility</name>
+								</ElemCondition>
+								<levelDelta>1.8999999999999999</levelDelta>
+								<minLevelLimit>0</minLevelLimit>
+								<maxLevelLimit>285</maxLevelLimit>
+								<leftLimit>5</leftLimit>
+								<rightLimit>5</rightLimit>
+								<minLevel>30.399999999999991</minLevel>
+								<maxLevel>188.10000000000034</maxLevel>
+								<left>4</left>
+								<right>0</right>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name>stageOne_CharTraj_v1__at_1_dim_1_15_38</name>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id="11" class_name="BetweenTwoLevels" tracking_level="1" version="0" object_id="_6">
+								<ElemCondition>
+									<name>between_two_levels</name>
+								</ElemCondition>
+								<minLimit>-38.5054820696962</minLimit>
+								<maxLimit>282.33690861737739</maxLimit>
+								<levelDelta>2.1389492712471574</levelDelta>
+								<leftLimit>5</leftLimit>
+								<rightLimit>5</rightLimit>
+								<Min>74.858829306403109</Min>
+								<Max>76.997778577650266</Max>
+								<Left>0</Left>
+								<Right>0</Right>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name>stageOne_CharTraj_v1__at_1_dim_1_13_33</name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_7">
+				<nameOfAxiomExpr>stageTwo_CharTraj_v1__at_1_15</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="10" object_id="_8">
+								<ElemCondition>
+									<name>volatility</name>
+								</ElemCondition>
+								<levelDelta>1.8999999999999999</levelDelta>
+								<minLevelLimit>0</minLevelLimit>
+								<maxLevelLimit>285</maxLevelLimit>
+								<leftLimit>5</leftLimit>
+								<rightLimit>5</rightLimit>
+								<minLevel>26.599999999999994</minLevel>
+								<maxLevel>186.20000000000033</maxLevel>
+								<left>4</left>
+								<right>0</right>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name>stageOne_CharTraj_v1__at_1_dim_1_15_36</name>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="11" object_id="_9">
+								<ElemCondition>
+									<name>between_two_levels</name>
+								</ElemCondition>
+								<minLimit>-38.5054820696962</minLimit>
+								<maxLimit>282.33690861737739</maxLimit>
+								<levelDelta>2.1389492712471574</levelDelta>
+								<leftLimit>5</leftLimit>
+								<rightLimit>5</rightLimit>
+								<Min>12.829300440235563</Min>
+								<Max>23.524046796471346</Max>
+								<Left>5</Left>
+								<Right>0</Right>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name>stageOne_CharTraj_v1__at_1_dim_1_13_43</name>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_10">
+								<ElemCondition>
+									<name>second_derivative_increase_left</name>
+								</ElemCondition>
+								<levelDelta>1.9368439678898683</levelDelta>
+								<secDerivIncreaseLeft>2</secDerivIncreaseLeft>
+								<secDerivIncreaseLeftLimit>5</secDerivIncreaseLeftLimit>
+								<secDerivIncreaseMaxLevel>81.348113318041186</secDerivIncreaseMaxLevel>
+								<secDerivIncreaseMaxLevelLimit>290.52726185014694</secDerivIncreaseMaxLevelLimit>
+								<secDerivIncreaseMinLevel>56.16914173547287</secDerivIncreaseMinLevel>
+								<secDerivIncreaseMinLevelLimit>0.00066666666666666664</secDerivIncreaseMinLevelLimit>
+								<secDerivIncreaseRight>0</secDerivIncreaseRight>
+								<secDerivIncreaseRightLimit>0</secDerivIncreaseRightLimit>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name>stageOne_CharTraj_v1__at_1_dim_1_17_23</name>
+						</item>
+					</item>
+				</expression>
+			</item>
+		</axioms>
+	</AxiomExprSet>
+	<goal>38</goal>
+	<errFirst>18</errFirst>
+	<errSecond>1</errSecond>
+	<axiomsIndex>
+		<count>3</count>
+		<item_version>0</item_version>
+		<item>9</item>
+		<item>16</item>
+		<item>14</item>
+	</axiomsIndex>
+	<markUps class_id="13" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>
+			<count>1</count>
+			<item_version>0</item_version>
+			<item>2</item>
+		</item>
+	</markUps>
+	<multiMarkUps class_id="15" tracking_level="0" version="0">
+		<count>0</count>
+		<item_version>0</item_version>
+	</multiMarkUps>
+	<errors class_id="16" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item class_id="17" tracking_level="0" version="0">
+			<first>18</first>
+			<second>1</second>
+		</item>
+	</errors>
+</AxiomExprSetPlus>
+</boost_serialization>
+
