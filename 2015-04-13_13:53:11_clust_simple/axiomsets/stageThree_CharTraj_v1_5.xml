@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="10">
+<AxiomExprSetPlus class_id="0" tracking_level="0" version="0">
+	<AxiomExprSet class_id="1" tracking_level="0" version="0">
+		<nameOfAxiomSet>stageThree_CharTraj_v1_5</nameOfAxiomSet>
+		<nameOfAxiomBank>no_name_AxiomBank</nameOfAxiomBank>
+		<axioms class_id="2" tracking_level="0" version="0">
+			<count>4</count>
+			<item_version>0</item_version>
+			<item class_id="3" tracking_level="1" version="0" object_id="_0">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression class_id="4" tracking_level="0" version="0">
+					<count>1</count>
+					<item_version>0</item_version>
+					<item class_id="5" tracking_level="0" version="0">
+						<count>1</count>
+						<item_version>0</item_version>
+						<item class_id="6" tracking_level="0" version="0">
+							<elemCondition class_id="7" class_name="ElemCondClustering" tracking_level="1" version="0" object_id="_1">
+								<ElemCondition class_id="8" tracking_level="0" version="0">
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>0</clusterNumber>
+								<length>10</length>
+								<clusteringModel class_id="9" class_name="KMeansClustering" tracking_level="1" version="0" object_id="_2">
+									<iters>10</iters>
+									<dimension>4</dimension>
+									<serializable class_id="10" tracking_level="1" version="0" object_id="_3">
+										<count>100</count>
+										<item_version>0</item_version>
+										<item object_id="_4">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>4.0162823262428722</item>
+											<item>127.6217019311942</item>
+											<item>3.272485755079654</item>
+											<item>82.870936407258583</item>
+										</item>
+										<item object_id="_5">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>7.6312747028946513</item>
+											<item>78.766508022437336</item>
+											<item>14.255954799210492</item>
+											<item>3.7792992017936915</item>
+										</item>
+										<item object_id="_6">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-14.444405266764074</item>
+											<item>4.3418089308958043</item>
+											<item>17.360994602484762</item>
+											<item>-121.22955539183054</item>
+										</item>
+										<item object_id="_7">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.32855164354551414</item>
+											<item>8.8016658914396633</item>
+											<item>1.1691450950426816</item>
+											<item>-1.1953230878594854</item>
+										</item>
+										<item object_id="_8">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.13837365686941969</item>
+											<item>26.622690249890958</item>
+											<item>1.4027451686173227</item>
+											<item>13.861588603235312</item>
+										</item>
+										<item object_id="_9">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>2.2229962375008174</item>
+											<item>146.24130754337796</item>
+											<item>5.8874662865022769</item>
+											<item>118.00610821654415</item>
+										</item>
+										<item object_id="_10">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>33.393386745289916</item>
+											<item>113.22174094894864</item>
+											<item>36.845775712071081</item>
+											<item>-206.26341618493993</item>
+										</item>
+										<item object_id="_11">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.6987474739525237</item>
+											<item>1.4099028047272466</item>
+											<item>1.9584916324171351</item>
+											<item>-25.124220813854151</item>
+										</item>
+										<item object_id="_12">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>18.095372834991668</item>
+											<item>25.803311265885714</item>
+											<item>13.295418816217586</item>
+											<item>-206.60394790621095</item>
+										</item>
+										<item object_id="_13">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>13.306798269767167</item>
+											<item>112.19067785942211</item>
+											<item>22.123300634732807</item>
+											<item>-3.0630351883931906</item>
+										</item>
+										<item object_id="_14">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.9664474987092522</item>
+											<item>7.0417934528627795</item>
+											<item>1.8250994474471338</item>
+											<item>-14.872126835004675</item>
+										</item>
+										<item object_id="_15">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.96629342503130078</item>
+											<item>-1.7414383761574057</item>
+											<item>1.9048125999330769</item>
+											<item>-22.165330865178326</item>
+										</item>
+										<item object_id="_16">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>7.5653641114392558</item>
+											<item>82.911442539153967</item>
+											<item>20.006913922940644</item>
+											<item>-5.0762742836493819</item>
+										</item>
+										<item object_id="_17">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.1151410566949755</item>
+											<item>33.39649928836468</item>
+											<item>6.2518343858574861</item>
+											<item>-0.82687367956935176</item>
+										</item>
+										<item object_id="_18">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.8930695302896881</item>
+											<item>9.3440515322092388</item>
+											<item>5.1996241907450909</item>
+											<item>-14.844490079981895</item>
+										</item>
+										<item object_id="_19">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.17180499021964099</item>
+											<item>-6.4186601315260248</item>
+											<item>2.7722150205915881</item>
+											<item>-25.762423845626461</item>
+										</item>
+										<item object_id="_20">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.46923551795480523</item>
+											<item>-3.8892368976096976</item>
+											<item>0.7707451088343571</item>
+											<item>-9.7950058322430014</item>
+										</item>
+										<item object_id="_21">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>7.740844655662392</item>
+											<item>201.91542217703551</item>
+											<item>18.026180290744207</item>
+											<item>123.76043591567927</item>
+										</item>
+										<item object_id="_22">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.57832084282763863</item>
+											<item>1.7981157264970544</item>
+											<item>1.5087187550766237</item>
+											<item>-10.856236352570713</item>
+										</item>
+										<item object_id="_23">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-8.4834427391706377</item>
+											<item>202.00004859679004</item>
+											<item>37.450805167392318</item>
+											<item>-1.4418451389456088</item>
+										</item>
+										<item object_id="_24">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>23.551822393638229</item>
+											<item>16.513017712171056</item>
+											<item>30.24407096003916</item>
+											<item>-206.92221152805899</item>
+										</item>
+										<item object_id="_25">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>5.1748824714257955</item>
+											<item>0.75995403566459863</item>
+											<item>4.4842276394208138</item>
+											<item>-207.93301037710924</item>
+										</item>
+										<item object_id="_26">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.0669064660890095</item>
+											<item>6.4547345095324085</item>
+											<item>1.8002638977796981</item>
+											<item>-10.309339107044044</item>
+										</item>
+										<item object_id="_27">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>14.367343336959427</item>
+											<item>9.2595970835254064</item>
+											<item>37.332991798830342</item>
+											<item>-206.47567030057982</item>
+										</item>
+										<item object_id="_28">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.1305363162548927</item>
+											<item>12.587740595789905</item>
+											<item>4.0997732010828694</item>
+											<item>-10.381605802229025</item>
+										</item>
+										<item object_id="_29">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>3.8005020664765894</item>
+											<item>30.126592104703825</item>
+											<item>7.4181811005354694</item>
+											<item>-11.923824985467032</item>
+										</item>
+										<item object_id="_30">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>13.68643988832539</item>
+											<item>0.58286462694055785</item>
+											<item>29.993276929801091</item>
+											<item>-208.21763253014998</item>
+										</item>
+										<item object_id="_31">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>5.0512341971474752</item>
+											<item>176.84817128435577</item>
+											<item>12.597309542373115</item>
+											<item>122.70169834468183</item>
+										</item>
+										<item object_id="_32">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>21.88171142575764</item>
+											<item>4.807512160705036</item>
+											<item>26.76567936106543</item>
+											<item>-205.93679407312584</item>
+										</item>
+										<item object_id="_33">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-10.374934380608423</item>
+											<item>202.61260722499992</item>
+											<item>6.7121098114373341</item>
+											<item>-1.0915619948291717</item>
+										</item>
+										<item object_id="_34">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.052704827703218354</item>
+											<item>7.6741886263230885</item>
+											<item>1.2985619870063594</item>
+											<item>-3.2591205864451016</item>
+										</item>
+										<item object_id="_35">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>4.176822468043488</item>
+											<item>0.50999184403274811</item>
+											<item>40.015248955444491</item>
+											<item>-206.78969586392029</item>
+										</item>
+										<item object_id="_36">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>15.17761446594001</item>
+											<item>34.849760342258278</item>
+											<item>14.147092141443538</item>
+											<item>-206.19888758505581</item>
+										</item>
+										<item object_id="_37">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>4.8452729436758561</item>
+											<item>43.262910340094678</item>
+											<item>8.9914916872086152</item>
+											<item>-1.2539011934738531</item>
+										</item>
+										<item object_id="_38">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-3.5187552009960097</item>
+											<item>79.183523771187367</item>
+											<item>13.923557393889277</item>
+											<item>-13.936522891640609</item>
+										</item>
+										<item object_id="_39">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>2.954661976184485</item>
+											<item>78.215408663816916</item>
+											<item>10.72262558195413</item>
+											<item>-1.409514388121027</item>
+										</item>
+										<item object_id="_40">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-3.5980320595414867</item>
+											<item>10.815690167111805</item>
+											<item>5.7852904172632353</item>
+											<item>-22.65798555343121</item>
+										</item>
+										<item object_id="_41">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>3.6015104611740916</item>
+											<item>5.6042994764141705</item>
+											<item>4.3631041978951082</item>
+											<item>-25.281189742272133</item>
+										</item>
+										<item object_id="_42">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-4.7278550485419037</item>
+											<item>23.116318159107315</item>
+											<item>7.7643054921231442</item>
+											<item>-17.571627701807287</item>
+										</item>
+										<item object_id="_43">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.8781838156911579</item>
+											<item>135.26458925864299</item>
+											<item>3.4719103088914132</item>
+											<item>112.05409262775957</item>
+										</item>
+										<item object_id="_44">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-21.197385215064433</item>
+											<item>201.63472183182486</item>
+											<item>21.624055356848981</item>
+											<item>-1.2183744506596361</item>
+										</item>
+										<item object_id="_45">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>25.580491207770073</item>
+											<item>22.606407685769273</item>
+											<item>23.490950378397894</item>
+											<item>-206.53002504886015</item>
+										</item>
+										<item object_id="_46">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>4.0776231039325621</item>
+											<item>11.551636987489202</item>
+											<item>6.0415389235813803</item>
+											<item>-24.978750432446454</item>
+										</item>
+										<item object_id="_47">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-4.9058007743669121</item>
+											<item>77.254879994516685</item>
+											<item>5.3403795057791807</item>
+											<item>-2.1075885027402461</item>
+										</item>
+										<item object_id="_48">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.4203212934747238</item>
+											<item>20.150352887905715</item>
+											<item>2.6288885042421777</item>
+											<item>-1.5792231891293633</item>
+										</item>
+										<item object_id="_49">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.68006479133350561</item>
+											<item>1.7222900696932701</item>
+											<item>0.97744150171472599</item>
+											<item>-7.2391149500917953</item>
+										</item>
+										<item object_id="_50">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>16.328109209478541</item>
+											<item>50.867408183749092</item>
+											<item>48.955904573430693</item>
+											<item>-206.16649591824245</item>
+										</item>
+										<item object_id="_51">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>3.0691431307077246</item>
+											<item>2.9888446821086236</item>
+											<item>3.1965054796620858</item>
+											<item>-23.837796057832975</item>
+										</item>
+										<item object_id="_52">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.62399259935352513</item>
+											<item>8.4508055466019094</item>
+											<item>1.0459759269238531</item>
+											<item>0.67634856197372761</item>
+										</item>
+										<item object_id="_53">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.80399548474756155</item>
+											<item>16.06321069847623</item>
+											<item>1.9592481426638386</item>
+											<item>-2.1799315690156864</item>
+										</item>
+										<item object_id="_54">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>6.2822611798475521</item>
+											<item>127.18149405891421</item>
+											<item>5.0948379865220641</item>
+											<item>62.495028218052589</item>
+										</item>
+										<item object_id="_55">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>1.2647007021954646</item>
+											<item>-2.7917407012249211</item>
+											<item>2.9798274556281696</item>
+											<item>-25.381079120086763</item>
+										</item>
+										<item object_id="_56">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.20555705197307425</item>
+											<item>12.845577291390216</item>
+											<item>1.3666245425097514</item>
+											<item>-0.23146238932289379</item>
+										</item>
+										<item object_id="_57">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-19.117431560203119</item>
+											<item>78.212025739382327</item>
+											<item>27.357305924727974</item>
+											<item>-107.67624077934641</item>
+										</item>
+										<item object_id="_58">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-8.5367048579544456</item>
+											<item>78.978746810413114</item>
+											<item>11.954146553226263</item>
+											<item>-27.419557771802268</item>
+										</item>
+										<item object_id="_59">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-3.2357191790394975</item>
+											<item>-110.51733898536125</item>
+											<item>7.0775079918291466</item>
+											<item>-149.69069267598698</item>
+										</item>
+										<item object_id="_60">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-4.509703414770355</item>
+											<item>-80.698380826551912</item>
+											<item>4.5386022596858808</item>
+											<item>-131.27822408082685</item>
+										</item>
+										<item object_id="_61">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>12.979436061123437</item>
+											<item>1.2343559090638136</item>
+											<item>9.9988403525871163</item>
+											<item>-207.62540216042149</item>
+										</item>
+										<item object_id="_62">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.56434525368136457</item>
+											<item>26.440959480686129</item>
+											<item>2.3335026694386638</item>
+											<item>5.9886229561452611</item>
+										</item>
+										<item object_id="_63">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>2.6625128514620462</item>
+											<item>5.5927087436672496</item>
+											<item>2.3913551670187565</item>
+											<item>-20.64002490975756</item>
+										</item>
+										<item object_id="_64">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.8904206474472991</item>
+											<item>-2.3616843230620455</item>
+											<item>2.0431427423941746</item>
+											<item>-25.488873574292533</item>
+										</item>
+										<item object_id="_65">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.36832163748936025</item>
+											<item>10.582789544105751</item>
+											<item>1.5368703343376662</item>
+											<item>-3.8375267626078546</item>
+										</item>
+										<item object_id="_66">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>13.547863585864313</item>
+											<item>125.14224330451704</item>
+											<item>13.128837563145558</item>
+											<item>0.059471675670483733</item>
+										</item>
+										<item object_id="_67">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>19.99250194581812</item>
+											<item>1.1357241205782762</item>
+											<item>16.836651480722431</item>
+											<item>-207.73745631848945</item>
+										</item>
+										<item object_id="_68">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>4.7301790635892047</item>
+											<item>21.983419537626173</item>
+											<item>6.3846500881003916</item>
+											<item>-21.44320359570979</item>
+										</item>
+										<item object_id="_69">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-20.69172063955364</item>
+											<item>203.22568120614596</item>
+											<item>37.661322277711989</item>
+											<item>-36.747679898649544</item>
+										</item>
+										<item object_id="_70">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.85770864301076333</item>
+											<item>10.220789350577547</item>
+											<item>1.4143333745141813</item>
+											<item>1.4640986395544013</item>
+										</item>
+										<item object_id="_71">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.15885794497974443</item>
+											<item>-8.4050404580090348</item>
+											<item>2.4698600122078567</item>
+											<item>-25.000819693995037</item>
+										</item>
+										<item object_id="_72">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-3.2980436635497017</item>
+											<item>8.23501647262934</item>
+											<item>5.6445459227206793</item>
+											<item>-21.711499285787546</item>
+										</item>
+										<item object_id="_73">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.34850725054582621</item>
+											<item>-1.5862749839759853</item>
+											<item>1.0431687518374089</item>
+											<item>-11.316766886959499</item>
+										</item>
+										<item object_id="_74">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-7.9659264566734151</item>
+											<item>-123.41532687596178</item>
+											<item>19.746820500973136</item>
+											<item>-207.18754107219635</item>
+										</item>
+										<item object_id="_75">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.42274795904399637</item>
+											<item>25.283965745747956</item>
+											<item>3.7068547853396407</item>
+											<item>-0.98741919631032238</item>
+										</item>
+										<item object_id="_76">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>15.299240138119927</item>
+											<item>119.63338697045295</item>
+											<item>19.444285109257482</item>
+											<item>-4.3238239380034766</item>
+										</item>
+										<item object_id="_77">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>10.075598061326026</item>
+											<item>99.381279869258904</item>
+											<item>21.288691183071357</item>
+											<item>-3.2680172426041358</item>
+										</item>
+										<item object_id="_78">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-34.399657062134963</item>
+											<item>203.13135370871802</item>
+											<item>37.839161328767588</item>
+											<item>-117.36896222535901</item>
+										</item>
+										<item object_id="_79">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>2.5580223710892316</item>
+											<item>129.76168179124323</item>
+											<item>2.8683103804869861</item>
+											<item>99.232393866324188</item>
+										</item>
+										<item object_id="_80">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-5.1163303746347797</item>
+											<item>-120.92295103025884</item>
+											<item>13.072892695959128</item>
+											<item>-177.40301614061329</item>
+										</item>
+										<item object_id="_81">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>9.2731868706556195</item>
+											<item>126.71432917621567</item>
+											<item>7.5643894587203944</item>
+											<item>34.776704900250934</item>
+										</item>
+										<item object_id="_82">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>5.4712090087933225</item>
+											<item>57.118471805498665</item>
+											<item>12.445158563191399</item>
+											<item>-1.9996077568298538</item>
+										</item>
+										<item object_id="_83">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-1.1542727375962016</item>
+											<item>-0.1859782462424121</item>
+											<item>0.48589224675579107</item>
+											<item>-26.286655234414877</item>
+										</item>
+										<item object_id="_84">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.6854167565910626</item>
+											<item>12.581939780352416</item>
+											<item>0.95999766258535391</item>
+											<item>2.8496130326958271</item>
+										</item>
+										<item object_id="_85">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>3.2159999475038132</item>
+											<item>157.85312370442736</item>
+											<item>8.3619446856559332</item>
+											<item>121.11393375560624</item>
+										</item>
+										<item object_id="_86">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.52503928527905419</item>
+											<item>-0.16571547120074545</item>
+											<item>7.5164909386573004</item>
+											<item>-38.553021555970794</item>
+										</item>
+										<item object_id="_87">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.46036377670813544</item>
+											<item>7.1877848092128644</item>
+											<item>0.62511333823512727</item>
+											<item>0.9448052722376139</item>
+										</item>
+										<item object_id="_88">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-8.5633714767452105</item>
+											<item>-38.936359830197041</item>
+											<item>6.8518657418005287</item>
+											<item>-126.75887278471251</item>
+										</item>
+										<item object_id="_89">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>6.3402393965620671</item>
+											<item>65.95707066057453</item>
+											<item>12.572685306450779</item>
+											<item>1.5416408180903638</item>
+										</item>
+										<item object_id="_90">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.51803529605940846</item>
+											<item>-1.5670489194617601</item>
+											<item>0.75766403522147385</item>
+											<item>-8.32237378535328</item>
+										</item>
+										<item object_id="_91">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-3.951429095576759</item>
+											<item>19.553961535745451</item>
+											<item>14.451080937727363</item>
+											<item>-38.787233338389058</item>
+										</item>
+										<item object_id="_92">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-4.4239271122185082</item>
+											<item>10.971604121769911</item>
+											<item>5.836397849113383</item>
+											<item>-26.116643518431459</item>
+										</item>
+										<item object_id="_93">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-3.548512500855113</item>
+											<item>8.7923377014621895</item>
+											<item>2.1585472243843258</item>
+											<item>-25.994882672627305</item>
+										</item>
+										<item object_id="_94">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>3.0484155207599692</item>
+											<item>2.5875769847177925</item>
+											<item>5.0538302079146531</item>
+											<item>-25.749796200618615</item>
+										</item>
+										<item object_id="_95">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.54472090349824798</item>
+											<item>7.0501795263065992</item>
+											<item>0.91347436040543617</item>
+											<item>-0.89812397971056757</item>
+										</item>
+										<item object_id="_96">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>2.0913297641575785</item>
+											<item>0.046080286265720131</item>
+											<item>5.0177942952847454</item>
+											<item>-26.289990727442191</item>
+										</item>
+										<item object_id="_97">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-4.3401000898389901</item>
+											<item>8.6060481009087439</item>
+											<item>5.3728710608348909</item>
+											<item>-26.716350023273122</item>
+										</item>
+										<item object_id="_98">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.50378388839041066</item>
+											<item>9.8806443815780458</item>
+											<item>1.2437083394658042</item>
+											<item>0.049273375531553872</item>
+										</item>
+										<item object_id="_99">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.33882143664610465</item>
+											<item>9.494234563152613</item>
+											<item>1.2242381548191834</item>
+											<item>-2.232623919299126</item>
+										</item>
+										<item object_id="_100">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-0.83515739881206841</item>
+											<item>8.7960852856928344</item>
+											<item>2.3899857507742426</item>
+											<item>-6.6799990566356113</item>
+										</item>
+										<item object_id="_101">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>2.2214086255351799</item>
+											<item>143.21291262345062</item>
+											<item>5.0092254436177477</item>
+											<item>117.18114563793429</item>
+										</item>
+										<item object_id="_102">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>0.57427707134344874</item>
+											<item>10.943898755546634</item>
+											<item>1.3783564717145638</item>
+											<item>-0.93716201177036373</item>
+										</item>
+										<item object_id="_103">
+											<count>4</count>
+											<item_version>0</item_version>
+											<item>-7.4696965905933119</item>
+											<item>9.0620915785400751</item>
+											<item>20.710135647542813</item>
+											<item>-82.336928542090334</item>
+										</item>
+									</serializable>
+								</clusteringModel>
+								<clusteringFeatures class_id="12" tracking_level="0" version="0">
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id="13" class_name="RegressionAngleFeature" tracking_level="1" version="0" object_id="_104"></item>
+									<item class_id="14" class_name="MaxValueFeature" tracking_level="1" version="0" object_id="_105"></item>
+									<item class_id="15" class_name="StandardDeviationFeature" tracking_level="1" version="0" object_id="_106"></item>
+									<item class_id="16" class_name="MinValueFeature" tracking_level="1" version="0" object_id="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_108">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_109">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>14</clusterNumber>
+								<length>10</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_110">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_111">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>4</clusterNumber>
+								<length>10</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+			<item class_id_reference="3" object_id="_112">
+				<nameOfAxiomExpr>no_name</nameOfAxiomExpr>
+				<nameOfECBank>no_name_Elem_Cond_Bank</nameOfECBank>
+				<expression>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>
+							<elemCondition class_id_reference="7" object_id="_113">
+								<ElemCondition>
+									<name>ElemCondClustering</name>
+								</ElemCondition>
+								<clusterNumber>3</clusterNumber>
+								<length>10</length>
+								<clusteringModel class_id_reference="9" object_id_reference="_2"></clusteringModel>
+								<clusteringFeatures>
+									<count>4</count>
+									<item_version>0</item_version>
+									<item class_id_reference="13" object_id_reference="_104"></item>
+									<item class_id_reference="14" object_id_reference="_105"></item>
+									<item class_id_reference="15" object_id_reference="_106"></item>
+									<item class_id_reference="16" object_id_reference="_107"></item>
+								</clusteringFeatures>
+							</elemCondition>
+							<sign>1</sign>
+							<dimension>1</dimension>
+							<name></name>
+						</item>
+					</item>
+				</expression>
+			</item>
+		</axioms>
+	</AxiomExprSet>
+	<goal>7</goal>
+	<errFirst>7</errFirst>
+	<errSecond>0</errSecond>
+	<axiomsIndex>
+		<count>4</count>
+		<item_version>0</item_version>
+		<item>0</item>
+		<item>14</item>
+		<item>4</item>
+		<item>3</item>
+	</axiomsIndex>
+	<markUps class_id="18" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>
+			<count>1</count>
+			<item_version>0</item_version>
+			<item>2</item>
+		</item>
+	</markUps>
+	<multiMarkUps class_id="20" tracking_level="0" version="0">
+		<count>0</count>
+		<item_version>0</item_version>
+	</multiMarkUps>
+	<errors class_id="21" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item class_id="22" tracking_level="0" version="0">
+			<first>7</first>
+			<second>0</second>
+		</item>
+	</errors>
+</AxiomExprSetPlus>
+</boost_serialization>
+
